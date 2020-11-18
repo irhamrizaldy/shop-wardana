@@ -56,8 +56,13 @@ class Trc_model extends CI_model
 
     public function getById($id = '')
     {
-        $query = $this->db->query("SELECT * FROM log_item WHERE id_itm = '$id'");
+        $query = $this->db->query("SELECT * FROM log_trc WHERE id_trc = '$id'");
         // $this->db->get_where($table, array($key => $id))->result_array();
         return $query->result_array();
+    }
+
+    public function delete($id)
+    {
+        $this->db->delete('log_trc', ['id_trc' => $id]);
     }
 }

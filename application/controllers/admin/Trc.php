@@ -79,7 +79,7 @@ class Trc extends CI_Controller
         @unlink(base_url('assets/img/product/User-icon.png'));
         $this->Trc_model->delete($id);
         $this->session->set_flashdata('flash', 'Dihapus');
-        redirect('admin/item');
+        redirect('admin/trc');
     }
 
     public function updateItem()
