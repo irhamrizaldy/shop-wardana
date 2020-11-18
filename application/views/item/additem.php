@@ -7,7 +7,7 @@
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-                <form class="form-horizontal form-label-left" action="<?= base_url('') ?>admin/designer/additem" enctype="multipart/form-data" method="post">
+                <form class="form-horizontal form-label-left" action="<?= base_url('') ?>admin/item/additem" enctype="multipart/form-data" method="post">
                     <div class="form-group">
                         <label class="control-label col-md-2 col-sm-2 col-xs-12">Nama Barang
                         </label>
@@ -47,7 +47,7 @@
                     <div class="form-group">
                         <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
                             <button type="submit" class="btn btn-success" name="submit" value="Submit">Submit</button>
-                            <a href="<?= base_url('') ?>/designer/designer" class="btn btn-primary">Kembali</a>
+                            <a href="<?= base_url('') ?>/item/item" class="btn btn-primary">Kembali</a>
                         </div>
                     </div>
 

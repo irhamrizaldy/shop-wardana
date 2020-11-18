@@ -3,7 +3,7 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Designer_model extends CI_Model
+class Item_model extends CI_Model
 {
 
     public function getJoinItem()
@@ -106,7 +106,7 @@ class Designer_model extends CI_Model
     //     }
     // }
 
-    public function getCountDesigner()
+    public function getCountItem()
     {
         $this->db->select('log_item.id_itm, count(log_item.id_itm) as total');
         $query = $this->db->get('log_item');

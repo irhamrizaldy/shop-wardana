@@ -8,7 +8,7 @@
                                                         ?>"></div>
                 <?php if ($this->session->flashdata('flash')) : ?>
                 <?php endif; ?>
-                <a href="<?= base_url('') ?>admin/designer/addItem" class="btn btn-primary">Tambah Barang Dagang Baru</a>
+                <a href="<?= base_url('') ?>admin/item/addItem" class="btn btn-primary">Tambah Barang Dagang Baru</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -29,9 +29,9 @@
                                 <td><?php echo $produk['nm_itm'] ?></td>
                                 <td><?php echo $produk['prc_itm'] ?></td>
                                 <td>
-                                    <a href="<?= base_url('') ?>admin/designer/detailItem/<?= $produk['id_itm'] ?>" class="btn btn-primary">Detail</a>
-                                    <a href="<?= base_url('') ?>admin/designer/updateItem/<?= $produk['id_itm'] ?>" class="btn btn-warning">Ubah</a>
-                                    <a href="<?= base_url('') ?>admin/designer/deleteItem/<?= $produk['id_itm'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
+                                    <a href="<?= base_url('') ?>admin/item/detailItem/<?= $produk['id_itm'] ?>" class="btn btn-primary">Detail</a>
+                                    <a href="<?= base_url('') ?>admin/item/updateItem/<?= $produk['id_itm'] ?>" class="btn btn-warning">Ubah</a>
+                                    <a href="<?= base_url('') ?>admin/item/deleteItem/<?= $produk['id_itm'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
                                 </td>
                             </tr>
                             <?php $nomor++; ?>

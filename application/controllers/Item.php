@@ -1,5 +1,5 @@
 <?php
-class Designer extends CI_Controller
+class Item extends CI_Controller
 {
     public function __construct()
     {

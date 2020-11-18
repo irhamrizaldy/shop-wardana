@@ -35,7 +35,7 @@
         </a>
       </li>
       <li class="">
-        <a href="<?= base_url() ?>admin/designer">
+        <a href="<?= base_url() ?>admin/item">
           <i class="fa fa-exchange"></i>
           <span>Barang Dagang</span>
         </a>

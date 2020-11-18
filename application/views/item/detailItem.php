@@ -31,7 +31,7 @@
                         </table>
                     <?php endforeach; ?>
                     <a href="#" class="btn btn-default" onclick="window.history.go(-1)">Kembali</a>
-                    <a href="<?= base_url('') ?>designer/updateItem/<?= $detail['id_itm'] ?>" class="btn btn-warning">Edit</a>
+                    <a href="<?= base_url('') ?>item/updateItem/<?= $detail['id_itm'] ?>" class="btn btn-warning">Edit</a>
                     </div>
             </div>
         </div>

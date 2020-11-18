@@ -2,23 +2,23 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Designer extends CI_Controller
+class Item extends CI_Controller
 {
 
 
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('Designer_model');
+        $this->load->model('Item_model');
         $this->load->library('form_validation');
     }
 
     public function index()
     {
-        $data['item'] = $this->Designer_model->getJoinItem();
+        $data['item'] = $this->Item_model->getJoinItem();
         $data['title'] = 'Item - Page';
-        $data['judul'] = 'Designer';
-        $data['content'] = 'designer/designer';
+        $data['judul'] = 'Item';
+        $data['content'] = 'item/item';
         $this->load->view('admin/templates/index', $data);
     }
 
@@ -30,8 +30,8 @@ class Designer extends CI_Controller
 
         if ($this->form_validation->run() == FALSE) {
             $data['title'] = 'Tambah Barang - Page';
-            $data['judul'] = 'Form Add Designer';
-            $data['content'] = 'designer/additem';
+            $data['judul'] = 'Form Add Item';
+            $data['content'] = 'item/additem';
             $this->load->view('admin/templates/index', $data);
         } else {
             $config['upload_path'] = './assets/front/images/';
@@ -50,9 +50,9 @@ class Designer extends CI_Controller
                     "img" => $foto,
                     "desc_itm" => $this->input->post('desc_itm', true)
                 ];
-                $this->Designer_model->add('log_item', $items);
+                $this->Item_model->add('log_item', $items);
                 $this->session->set_flashdata('flash', 'Ditambahkan');
-                redirect('admin/designer');
+                redirect('admin/item');
             }
         }
     }
@@ -60,10 +60,10 @@ class Designer extends CI_Controller
     public function detailItem()
     {
         $id = $this->uri->segment(4);
-        $data['details'] = $this->Designer_model->getById($id);
+        $data['details'] = $this->Item_model->getById($id);
         $data['title'] = 'Item - Page';
         $data['judul'] = 'Detail Item';
-        $data['content'] = 'designer/detailItem';
+        $data['content'] = 'item/detailItem';
         $this->load->view('admin/templates/index', $data);
     }
 
@@ -71,9 +71,9 @@ class Designer extends CI_Controller
     {
         // $row = 'User-icon.png';
         // @unlink(base_url('assets/img/product/User-icon.png'));
-        $this->Designer_model->delete($id);
+        $this->Item_model->delete($id);
         $this->session->set_flashdata('flash', 'Dihapus');
-        redirect('admin/designer');
+        redirect('admin/item');
     }
 
     // public function updateItem()
