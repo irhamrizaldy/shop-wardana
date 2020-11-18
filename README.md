@@ -1,3 +1,1 @@
-This Project created by ClaraSlytherin Group
-
-# webinterior
+Copyright reserved to S1MSIM Group
