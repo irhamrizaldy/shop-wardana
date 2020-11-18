@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 18, 2020 at 06:00 PM
+-- Generation Time: Nov 18, 2020 at 06:11 PM
 -- Server version: 5.5.32
 -- PHP Version: 5.4.16
 
@@ -99,7 +99,7 @@ CREATE TABLE IF NOT EXISTS `log_trc` (
   `img_bukti_tf` varchar(50) NOT NULL,
   `status` varchar(255) NOT NULL,
   PRIMARY KEY (`id_trc`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=3 ;
 
 --
 -- Dumping data for table `log_trc`
