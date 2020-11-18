@@ -41,7 +41,7 @@
         </a>
       </li>
       <li class="">
-        <a href="<?= base_url() ?>admin/messages">
+        <a href="<?= base_url() ?>admin/news">
           <i class="fa fa-book"></i>
           <span>Berita</span>
         </a>

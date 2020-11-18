@@ -2,22 +2,22 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Messages extends CI_Controller
+class News extends CI_Controller
 {
 
 
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('Messages_model');
+        $this->load->model('News_model');
     }
 
     public function index()
     {
-        $data['messages'] = $this->Messages_model->getJoinItem();
-        $data['title'] = 'Messages - Page';
+        $data['messages'] = $this->News_model->getJoinItem();
+        $data['title'] = 'News - Page';
         // $data['judul'] = 'Item';
-        $data['content'] = 'admin/messages';
+        $data['content'] = 'admin/news';
         $this->load->view('admin/templates/index', $data);
     }
 }

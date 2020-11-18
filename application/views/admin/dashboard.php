@@ -63,7 +63,7 @@ if ($data_trc) {
                         <div class="icon">
                             <i class="ion ion-bag"></i>
                         </div>
-                        <a href="<?= base_url() ?>admin/messages" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url() ?>admin/news" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->

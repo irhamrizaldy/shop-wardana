@@ -3,7 +3,7 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Messages_model extends CI_Model
+class News_model extends CI_Model
 {
 
     public function getJoinItem()
@@ -106,7 +106,7 @@ class Messages_model extends CI_Model
     //     }
     // }
 
-    public function getCountDesigner()
+    public function getCountNews()
     {
         $this->db->select('log_news.id_news, count(log_news.id_news) as total');
         $query = $this->db->get('log_news');
