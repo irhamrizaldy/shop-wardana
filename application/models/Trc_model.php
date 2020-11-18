@@ -3,7 +3,7 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Item_model extends CI_model
+class Trc_model extends CI_model
 {
 
     public function getProduct()

@@ -29,9 +29,9 @@
                                 <td><?php echo $produk['r_trc'] ?></td>
                                 <td><?php echo $produk['status'] ?></td>
                                 <td>
-                                    <a href="<?= base_url('') ?>admin/item/detailItem/<?= $produk['id_trc'] ?>" class="btn btn-primary">Detail</a>
-                                    <a href="<?= base_url('') ?>admin/item/updateItem/<?= $produk['id_trc'] ?>" class="btn btn-warning">Ubah</a>
-                                    <a href="<?= base_url('') ?>admin/item/deleteItem/<?= $produk['id_trc'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
+                                    <a href="<?= base_url('') ?>admin/trc/detailItem/<?= $produk['id_trc'] ?>" class="btn btn-primary">Detail</a>
+                                    <a href="<?= base_url('') ?>admin/trc/updateItem/<?= $produk['id_trc'] ?>" class="btn btn-warning">Ubah</a>
+                                    <a href="<?= base_url('') ?>admin/trc/deleteItem/<?= $produk['id_trc'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
                                 </td>
                             </tr>
                             <?php $nomor++; ?>

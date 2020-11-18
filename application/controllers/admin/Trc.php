@@ -2,23 +2,23 @@
 
 defined('BASEPATH') or exit('No direct script access allowed');
 
-class Item extends CI_Controller
+class Trc extends CI_Controller
 {
 
 
     public function __construct()
     {
         parent::__construct();
-        $this->load->model('Item_model');
+        $this->load->model('Trc_model');
         $this->load->library('form_validation');
     }
 
     public function index()
     {
-        $data['item'] = $this->Item_model->getProduct();
+        $data['item'] = $this->Trc_model->getProduct();
         $data['title'] = 'Log Transac - Page';
         $data['judul'] = 'Item';
-        $data['content'] = 'admin/item';
+        $data['content'] = 'admin/trc';
         $this->load->view('admin/templates/index', $data);
     }
 
@@ -61,7 +61,7 @@ class Item extends CI_Controller
     public function detailItem()
     {
         $id = $this->uri->segment(4);
-        $data['details'] = $this->Item_model->getById($id);
+        $data['details'] = $this->Trc_model->getById($id);
         $data['title'] = 'Log Transac - Page';
         $data['judul'] = 'Log Transac';
         $data['content'] = 'admin/detailItem';
@@ -77,7 +77,7 @@ class Item extends CI_Controller
     {
         $row = 'User-icon.png';
         @unlink(base_url('assets/img/product/User-icon.png'));
-        $this->Item_model->delete($id);
+        $this->Trc_model->delete($id);
         $this->session->set_flashdata('flash', 'Dihapus');
         redirect('admin/item');
     }
@@ -125,7 +125,7 @@ class Item extends CI_Controller
                     'id_item' => $id_item
                 );
 
-                $this->Item_model->updateData($data, 'tabel_item', $where);
+                $this->Trc_model->updateData($data, 'tabel_item', $where);
                 redirect('admin/item');
             }
         }

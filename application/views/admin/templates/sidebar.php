@@ -29,7 +29,7 @@
         </a>
       </li>
       <li class="">
-        <a href="<?= base_url() ?>admin/item">
+        <a href="<?= base_url() ?>admin/trc">
           <i class="fa fa-cubes"></i>
           <span>Riwayat Transaksi</span>
         </a>
