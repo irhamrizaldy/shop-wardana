@@ -1,7 +1,7 @@
 <!-- <?php var_dump($pelanggan); ?> -->
 <?php
-if ($tabel_item) {
-    foreach ($tabel_item as $total) {
+if ($data_trc) {
+    foreach ($data_trc as $total) {
 ?>
         <div class="row">
             <div class="col-lg-3 col-xs-6">
@@ -26,8 +26,8 @@ if ($tabel_item) {
     ?>
 
     <?php
-    if ($data_designer) {
-        foreach ($data_designer as $total) {
+    if ($data_item) {
+        foreach ($data_item as $total) {
     ?>
             <div class="col-lg-3 col-xs-6">
                 <!-- small box -->
@@ -47,8 +47,8 @@ if ($tabel_item) {
     }
     ?>
     <?php
-    if ($tabel_item) {
-        foreach ($tabel_item as $total) {
+    if ($news) {
+        foreach ($news as $total) {
     ?>
             <div class="row">
                 <div class="col-lg-3 col-xs-6">
@@ -63,7 +63,7 @@ if ($tabel_item) {
                         <div class="icon">
                             <i class="ion ion-bag"></i>
                         </div>
-                        <a href="<?= base_url() ?>admin/item" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
+                        <a href="<?= base_url() ?>admin/messages" class="small-box-footer">More info <i class="fa fa-arrow-circle-right"></i></a>
                     </div>
                 </div>
                 <!-- ./col -->

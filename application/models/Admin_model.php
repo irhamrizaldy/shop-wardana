@@ -97,7 +97,7 @@ class Admin_model extends CI_Model
         return $this->db->update('pembelian', $data);
     }
 
-    public function getCountItem()
+    public function getCountTrc()
     {
         $this->db->select('log_trc.id_trc, count(log_trc.id_trc) as total');
         $query = $this->db->get('log_trc');
@@ -106,7 +106,7 @@ class Admin_model extends CI_Model
         }
     }
 
-    public function getCountDesigner()
+    public function getCountItem()
     {
         $this->db->select('log_item.id_itm, count(log_item.id_itm) as total');
         $query = $this->db->get('log_item');
@@ -115,7 +115,7 @@ class Admin_model extends CI_Model
         }
     }
 
-    public function getCountMessages()
+    public function getCountNews()
     {
         $this->db->select('log_news.id_news, count(log_news.id_news) as total');
         $query = $this->db->get('log_news');
