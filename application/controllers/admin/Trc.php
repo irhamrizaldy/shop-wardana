@@ -66,11 +66,6 @@ class Trc extends CI_Controller
         $data['judul'] = 'Log Transac';
         $data['content'] = 'admin/detailItem';
         $this->load->view('admin/templates/index', $data);
-        // $data['item'] = $this->Admin_model->getJoinItem();
-        // $data['title'] = 'Item - Page';
-        // $data['judul'] = 'Item';
-        // $data['content'] = 'admin/detailItem';
-        // $this->load->view('admin/templates/index',$data);
     }
 
     public function deleteItem($id)

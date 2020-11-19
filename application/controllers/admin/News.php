@@ -16,7 +16,6 @@ class News extends CI_Controller
     {
         $data['messages'] = $this->News_model->getJoinItem();
         $data['title'] = 'News - Page';
-        // $data['judul'] = 'Item';
         $data['content'] = 'admin/news';
         $this->load->view('admin/templates/index', $data);
     }

@@ -10,7 +10,6 @@ class News_model extends CI_Model
     {
         $this->db->select('*');
         $this->db->from('log_news');
-        // $this->db->join('kategori_produk', 'tabel_item.id_kategori = kategori_produk.id_kategori');
         return $query = $this->db->get()->result_array();
     }
 
