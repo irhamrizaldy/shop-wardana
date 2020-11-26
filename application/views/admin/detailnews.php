@@ -11,7 +11,7 @@
             <!-- /.box-header -->
             <div class="box-body">
                 <?php foreach ($details as $detail) : ?>
-                   
+
                     <div class="col-md-6 col-sm-6">
                         <table class="table table-striped">
                             <tr>
@@ -25,7 +25,7 @@
                         </table>
                     <?php endforeach; ?>
                     <a href="#" class="btn btn-default" onclick="window.history.go(-1)">Kembali</a>
-                    <a href="<?= base_url('') ?>admin/item/updateItem/<?= $detail['id_trc'] ?>" class="btn btn-warning">Edit</a>
+                    <a href="<?= base_url('') ?>admin/item/updateItem/<?= $detail['id_news'] ?>" class="btn btn-warning">Edit</a>
                     </div>
             </div>
         </div>

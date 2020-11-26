@@ -26,7 +26,7 @@ class News extends CI_Controller
         $data['details'] = $this->News_model->getById($id);
         $data['title'] = 'News - Page';
         $data['judul'] = 'Detail Berita';
-        $data['content'] = 'news/detailNews';
+        $data['content'] = 'admin/detailNews';
         $this->load->view('admin/templates/index', $data);
     }
 }
