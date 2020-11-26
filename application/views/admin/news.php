@@ -26,9 +26,9 @@
                                 <td><?php echo $nomor ?></td>
                                 <td><?php echo $msg['txt_news'] ?></td>
                                 <td>
-                                    <a href="<?= base_url('') ?>admin/designer/detailItem/<?= $msg['id_news'] ?>" class="btn btn-primary">Detail</a>
-                                    <a href="<?= base_url('') ?>admin/designer/updateItem/<?= $msg['id_news'] ?>" class="btn btn-warning">Ubah</a>
-                                    <a href="<?= base_url('') ?>admin/designer/deleteItem/<?= $msg['id_news'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
+                                    <a href="<?= base_url('') ?>admin/news/detailNews/<?= $msg['id_news'] ?>" class="btn btn-primary">Detail</a>
+                                    <a href="<?= base_url('') ?>admin/news/updateItem/<?= $msg['id_news'] ?>" class="btn btn-warning">Ubah</a>
+                                    <a href="<?= base_url('') ?>admin/news/deleteItem/<?= $msg['id_news'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
                                 </td>
                             </tr>
                             <?php $nomor++; ?>
