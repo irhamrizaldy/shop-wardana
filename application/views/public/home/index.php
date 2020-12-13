@@ -1,292 +1,646 @@
-<div class="site-blocks-cover overlay" style="background-image: url(assets/front/images/hero_bg_1.jpg);" data-aos="fade" data-stellar-background-ratio="0.5">
-  <div class="container">
-    <div class="row align-items-center text-center justify-content-center">
-      <div class="col-md-8">
-        <span class="sub-text">Perusahaan Desain Interior</span>
-        <h1>Experience Interior Design</h1>
-      </div>
-    </div>
-  </div>
-</div>
+<main id="main">
 
-<div class="site-block-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4">
-        <a href="#" class="site-block-feature d-flex p-4 rounded mb-4">
-          <div class="mr-3">
-            <span class="icon flaticon-window font-weight-light h2"></span>
-          </div>
-          <div class="text">
-            <h3>Arsitektur Interior</h3>
-            <p>Kami merancang untuk kebutuhan instansi terkait.</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4">
-        <a href="#" class="site-block-feature d-flex p-4 rounded mb-4">
-          <div class="mr-3">
-            <span class="icon flaticon-measuring font-weight-light h2"></span>
-          </div>
-          <div class="text">
-            <h3>Desain Interior</h3>
-            <p>Kami akan merancang keperluan instalasi.</p>
-          </div>
-        </a>
-      </div>
-      <div class="col-lg-4">
-        <a href="#" class="site-block-feature d-flex p-4 rounded mb-4">
-          <div class="mr-3">
-            <span class="icon flaticon-interior-design font-weight-light h2"></span>
-          </div>
-          <div class="text">
-            <h3>Furniture</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          </div>
-        </a>
-      </div>
-    </div>
-  </div>
-</div>
+  <!-- ======= About Section ======= -->
+  <section id="about" class="about">
+    <div class="container">
 
-<div class="site-section  border-bottom">
-  <div class="container">
-    <div class="row">
-
-      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-        <div class="media custom-media">
-          <div class="mr-3 icon"><span class="flaticon-interior-design display-4"></span></div>
-          <div class="media-body">
-            <h5 class="mt-0">Solusi Kreatif</h5>
-            Pemberkasan Kontrak Kerja dan Simulasi sistem.
-          </div>
+      <div class="row">
+        <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+          <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
         </div>
-      </div>
-
-
-      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-        <div class="media custom-media">
-          <div class="mr-3 icon"><span class="flaticon-step-ladder display-4"></span></div>
-          <div class="media-body">
-            <h5 class="mt-0">Solusi Kreatif</h5>
-            Estimasi dan simulasi waktu pengerjaan desain
+        <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+          <h3 data-aos="fade-up">Voluptatem dignissimos provident</h3>
+          <p data-aos="fade-up">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </p>
+          <div class="icon-box" data-aos="fade-up">
+            <i class="bx bx-receipt"></i>
+            <h4>Corporis voluptates sit</h4>
+            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
           </div>
-        </div>
-      </div>
 
-      <div class="col-lg-4 col-md-6 mb-5 mb-lg-0">
-        <div class="media custom-media">
-          <div class="mr-3 icon"><span class="flaticon-turned-off display-4"></span></div>
-          <div class="media-body">
-            <h5 class="mt-0">Desain Intuitif</h5>
-            Perancangan Konsep
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+            <i class="bx bx-cube-alt"></i>
+            <h4>Ullamco laboris nisi</h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
           </div>
+
+          <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+            <i class="bx bx-cube-alt"></i>
+            <h4>Ullamco laboris nisi</h4>
+            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+          </div>
+
         </div>
       </div>
 
     </div>
-  </div>
-</div>
+  </section><!-- End About Section -->
 
+  <!-- ======= Steps Section ======= -->
+  <section id="steps" class="steps section-bg">
+    <div class="container">
 
+      <div class="row no-gutters">
 
-<div class="site-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mb-5 mb-lg-0">
-        <div class="img-border">
-          <img src="assets/front/images/img_3.jpg" alt="Image" class="img-fluid">
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in">
+          <span>01</span>
+          <h4>Lorem Ipsum</h4>
+          <p>Ulamco laboris nisi ut aliquip ex ea commodo consequat. Et consectetur ducimus vero placeat</p>
         </div>
-      </div>
-      <div class="col-lg-5 ml-auto">
-        <span class="sub-title">Alasan Memilih Kami?</span>
-        <h2 class="font-weight-bold text-black mb-5">Alasan Memilih Kami?</h2>
-        <div class="accordion" id="accordionExample">
-          <!--
-              <h2 class="mb-0 border rounded mb-2">
-                <button class="btn " type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                  1. Apa Yang Harus Saya Lakukan Jika Interior Saya Rusak?
-                </button>
-              </h2>-->
 
-          <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-            <div class="card-body">
-              <p>Ruang Respons, <a href="<?= base_url() ?>">Ruang Respons</a> adalah ekonomi kreatif yang bergerak di bidang desain interior yang berbasis
-                di Tuban. Membuat, mengembangkan, dan mengimplementasikan
-                solusi untuk pengguna ruang dengan solusi ideal baik untuk keperluan
-                privat maupun komersial.</p>
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="100">
+          <span>02</span>
+          <h4>Repellat Nihil</h4>
+          <p>Dolorem est fugiat occaecati voluptate velit esse. Dicta veritatis dolor quod et vel dire leno para dest</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="200">
+          <span>03</span>
+          <h4> Ad ad velit qui</h4>
+          <p>Molestiae officiis omnis illo asperiores. Aut doloribus vitae sunt debitis quo vel nam quis</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="300">
+          <span>04</span>
+          <h4>Repellendus molestiae</h4>
+          <p>Inventore quo sint a sint rerum. Distinctio blanditiis deserunt quod soluta quod nam mider lando casa</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="400">
+          <span>05</span>
+          <h4>Sapiente Magnam</h4>
+          <p>Vitae dolorem in deleniti ipsum omnis tempore voluptatem. Qui possimus est repellendus est quibusdam</p>
+        </div>
+
+        <div class="col-lg-4 col-md-6 content-item" data-aos="fade-in" data-aos-delay="500">
+          <span>06</span>
+          <h4>Facilis Impedit</h4>
+          <p>Quis eum numquam veniam ea voluptatibus voluptas. Excepturi aut nostrum repudiandae voluptatibus corporis sequi</p>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Steps Section -->
+
+  <!-- ======= Features Section ======= -->
+  <section id="features" class="features">
+    <div class="container">
+
+      <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-right">
+          <ul class="nav nav-tabs flex-column">
+            <li class="nav-item">
+              <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+                <h4>Modi sit est</h4>
+                <p>Quis excepturi porro totam sint earum quo nulla perspiciatis eius.</p>
+              </a>
+            </li>
+            <li class="nav-item mt-2">
+              <a class="nav-link" data-toggle="tab" href="#tab-2">
+                <h4>Unde praesentium sed</h4>
+                <p>Voluptas vel esse repudiandae quo excepturi.</p>
+              </a>
+            </li>
+            <li class="nav-item mt-2">
+              <a class="nav-link" data-toggle="tab" href="#tab-3">
+                <h4>Pariatur explicabo vel</h4>
+                <p>Velit veniam ipsa sit nihil blanditiis mollitia natus.</p>
+              </a>
+            </li>
+            <li class="nav-item mt-2">
+              <a class="nav-link" data-toggle="tab" href="#tab-4">
+                <h4>Nostrum qui quasi</h4>
+                <p>Ratione hic sapiente nostrum doloremque illum nulla praesentium id</p>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-lg-7 ml-auto" data-aos="fade-left">
+          <div class="tab-content">
+            <div class="tab-pane active show" id="tab-1">
+              <figure>
+                <img src="assets/front/img/features-1.png" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="tab-pane" id="tab-2">
+              <figure>
+                <img src="assets/front/img/features-2.png" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="tab-pane" id="tab-3">
+              <figure>
+                <img src="assets/front/img/features-3.png" alt="" class="img-fluid">
+              </figure>
+            </div>
+            <div class="tab-pane" id="tab-4">
+              <figure>
+                <img src="assets/front/img/features-4.png" alt="" class="img-fluid">
+              </figure>
             </div>
           </div>
+        </div>
+      </div>
 
-          <!--<h2 class="mb-0 border rounded mb-2">
-                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                  2. Dimana Lokasi Anda?
-                </button>
-              </h2>
+    </div>
+  </section><!-- End Features Section -->
 
-              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat voluptate animi hic quasi sequi odio, vitae dolorum soluta sapiente debitis ad similique tempore, aliquam quae nam deserunt dicta ullam perspiciatis minima, quam. Quis repellat corporis aperiam, veritatis nemo iure inventore.</p>
-                </div>
+  <!-- ======= Services Section ======= -->
+  <section id="services" class="services section-bg">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Services</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="row">
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+          <div class="icon-box icon-box-pink">
+            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+            <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+          <div class="icon-box icon-box-cyan">
+            <div class="icon"><i class="bx bx-file"></i></div>
+            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+            <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <div class="icon-box icon-box-green">
+            <div class="icon"><i class="bx bx-tachometer"></i></div>
+            <h4 class="title"><a href="">Magni Dolores</a></h4>
+            <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+          <div class="icon-box icon-box-blue">
+            <div class="icon"><i class="bx bx-world"></i></div>
+            <h4 class="title"><a href="">Nemo Enim</a></h4>
+            <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Services Section -->
+
+  <!-- ======= Testimonials Section ======= -->
+  <section id="testimonials" class="testimonials">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Testimonials</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="owl-carousel testimonials-carousel" data-aos="fade-up">
+
+        <div class="testimonial-item">
+          <p>
+            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+          </p>
+          <img src="assets/front/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+          <h3>Saul Goodman</h3>
+          <h4>Ceo &amp; Founder</h4>
+        </div>
+
+        <div class="testimonial-item">
+          <p>
+            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+          </p>
+          <img src="assets/front/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+          <h3>Sara Wilsson</h3>
+          <h4>Designer</h4>
+        </div>
+
+        <div class="testimonial-item">
+          <p>
+            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+          </p>
+          <img src="assets/front/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+          <h3>Jena Karlis</h3>
+          <h4>Store Owner</h4>
+        </div>
+
+        <div class="testimonial-item">
+          <p>
+            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
+            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+          </p>
+          <img src="assets/front/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+          <h3>Matt Brandon</h3>
+          <h4>Freelancer</h4>
+        </div>
+
+        <div class="testimonial-item">
+          <p>
+            <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+            Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
+            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+          </p>
+          <img src="assets/front/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+          <h3>John Larson</h3>
+          <h4>Entrepreneur</h4>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Testimonials Section -->
+
+  <!-- ======= Portfolio Section ======= -->
+  <section id="portfolio" class="portfolio section-bg">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Portfolio</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="row" data-aos="fade-up">
+        <div class="col-lg-12 d-flex justify-content-center">
+          <ul id="portfolio-flters">
+            <li data-filter="*" class="filter-active">All</li>
+            <li data-filter=".filter-app">App</li>
+            <li data-filter=".filter-card">Card</li>
+            <li data-filter=".filter-web">Web</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row portfolio-container" data-aos="fade-up">
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
+            </div>
+          </div>
+        </div>
 
-              <h2 class="mb-0 border rounded mb-2">
-                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  3. Robus Building
-                </button>
-              </h2>
-
-              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum et dolorum libero consequuntur facere molestias beatae quod labore quidem ad quasi eius pariatur quae nam quo soluta optio dicta, doloribus ullam fugit nulla! Itaque necessitatibus eum sed quam eos id!</p>
-                </div>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-2.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
               </div>
-
-              <h2 class="mb-0 border rounded mb-2">
-                <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                  4. What Is Your Main Services?
-                </button>
-              </h2>
-
-              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
-                <div class="card-body">
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos quos incidunt, perspiciatis, ad saepe, magnam error adipisci vitae ut provident alias! Odio debitis error ipsum molestiae voluptas accusantium quibusdam animi, soluta explicabo asperiores aliquid, modi natus suscipit deleniti. Corrupti, autem.</p>
-                </div>
-              </div>-->
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-</div>
-
-
-<div class="container site-section block-13 testimonial-wrap">
-
-  <div class="row">
-    <div class="col-12 text-center">
-      <span class="sub-title">Klien Kami</span>
-      <h2 class="font-weight-bold text-black mb-5">Testimoni</h2>
-    </div>
-  </div>
-
-  <div class="nonloop-block-13 owl-carousel">
-
-    <div class="testimony">
-      <img src="assets/front/images/person_1.jpg" alt="Image" class="img-fluid">
-      <h3>Cloe Marena</h3>
-      <span class="sub-title">Owner of Building Co.</span>
-      <p>&ldquo;<em>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium non eligendi totam natus ullam cumque! Assumenda optio, ad in! Nesciunt natus veritatis hic iste quas. Sunt iste autem vel repudiandae.</em>&rdquo;</p>
-    </div>
-
-    <div class="testimony">
-      <img src="assets/front/images/person_2.jpg" alt="Image" class="img-fluid">
-      <h3>Nathalie Channie</h3>
-      <span class="sub-title">Owner of Building Co.</span>
-      <p>&ldquo;<em>Eveniet, laboriosam impedit facilis. Voluptatem, repudiandae eligendi maiores sunt itaque, dolores voluptas labore perferendis, illum tenetur suscipit vero officia. Quaerat facilis cum ex a labore iusto, beatae fuga nam rem, quos vel aliquam nobis.</em>&rdquo;</p>
-    </div>
-
-    <div class="testimony">
-      <img src="assets/front/images/person_3.jpg" alt="Image" class="img-fluid">
-      <h3>Will Turner</h3>
-      <span class="sub-title">Owner of Building Co.</span>
-      <p>&ldquo;<em>Laboriosam nisi natus quos soluta blanditiis iste in distinctio fugiat perferendis, architecto eveniet provident, consequatur dolore ab nihil voluptatibus laborum magnam cum assumenda nobis, nam quam quae! Unde porro laboriosam nam qui! Eligendi, qui!</em>&rdquo;</p>
-    </div>
-
-    <div class="testimony">
-      <img src="assets/front/images/person_4.jpg" alt="Image" class="img-fluid">
-      <h3>Nicolas Stainer</h3>
-      <span class="sub-title">Owner of Building Co.</span>
-      <p>&ldquo;<em>Voluptatibus sed vero corporis reiciendis, ducimus iste aliquam doloribus voluptas nam quo assumenda perferendis excepturi accusantium, ipsam minus tempora earum exercitationem laborum. Delectus voluptate quaerat repellat obcaecati. Qui nemo ad similique facere modi dolores.</em>&rdquo;</p>
-    </div>
-  </div>
-</div>
-
-<div class="site-section site-block-3 bg-light">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-6 mb-5 mb-lg-0">
-        <div class="img-border">
-          <img src="assets/front/images/img_2.jpg" alt="Image" class="img-fluid">
-        </div>
-      </div>
-      <div class="col-lg-6">
-        <div class="row row-items">
-          <div class="col-6">
-            <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
-              <span class="align-self-center w-100">
-                <span class="d-block mb-3">
-                  <span class="flaticon-sit-down display-3"></span>
-                </span>
-                <h3>Dekorasi Kursi</h3>
-              </span>
-            </a>
+            </div>
           </div>
         </div>
-        <div class="row row-items last">
-          <div class="col-6">
-            <a href="#" class="d-flex text-center feature active p-4 mb-4 bg-white">
-              <span class="align-self-center w-100">
-                <span class="d-block mb-3">
-                  <span class="flaticon-turned-off display-3"></span>
-                </span>
-                <h3>Ide Intuitif</h3>
-              </span>
-            </a>
-          </div>
-          <div class="col-6">
-            <a href="#" class="d-flex text-center active feature active p-4 mb-4 bg-white">
-              <span class="align-self-center w-100">
-                <span class="d-block mb-3">
-                  <span class="flaticon-window display-3"></span>
-                </span>
-                <h3>Dekorasi</h3>
-              </span>
-            </a>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
-</div>
 
-<div class="site-section">
-  <div class="container">
-    <div class="row">
-      <div class="col-12 text-center">
-        <span class="sub-title">Berita</span>
-        <h2 class="font-weight-bold text-black mb-5">Postingan Blog Kami</h2>
-      </div>
-    </div>
-    <div class="row mb-5">
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
-        <a href="#" class="d-block figure">
-          <img src="assets/front/images/img_1.jpg" alt="Image" class="img-fluid">
-        </a>
-        <span class="text-muted d-block mb-2">23, January 2019</span>
-        <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
-        <a href="#" class="d-block figure">
-          <img src="assets/front/images/img_2.jpg" alt="Image" class="img-fluid">
-        </a>
-        <span class="text-muted d-block mb-2">23, January 2019</span>
-        <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
-      </div>
-      <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 post-entry">
-        <a href="#" class="d-block figure">
-          <img src="assets/front/images/img_3.jpg" alt="Image" class="img-fluid">
-        </a>
-        <span class="text-muted d-block mb-2">23, January 2019</span>
-        <h3><a href="#">Architecture is ready to take the world to the next level </a></h3>
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 1</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 3</h4>
+              <p>Card</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+          <div class="portfolio-wrap">
+            <img src="assets/front/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <div class="portfolio-links">
+                <a href="assets/front/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
+                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
     </div>
-    <div class="row mt-5 text-center">
-      <div class="col-12">
-        <p><a href="#" class="btn btn-primary btn-lg rounded-0">Lihat Semua Post</a></p>
+  </section><!-- End Portfolio Section -->
+
+  <!-- ======= Team Section ======= -->
+  <section id="team" class="team">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Team</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div>
+
+      <div class="row">
+
+        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up">
+          <div class="member">
+            <img src="assets/front/img/team/team-1.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Walter White</h4>
+                <span>Chief Executive Officer</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div class="member">
+            <img src="assets/front/img/team/team-2.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Sarah Jhonson</h4>
+                <span>Product Manager</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <div class="member">
+            <img src="assets/front/img/team/team-3.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>William Anderson</h4>
+                <span>CTO</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <div class="member">
+            <img src="assets/front/img/team/team-4.jpg" class="img-fluid" alt="">
+            <div class="member-info">
+              <div class="member-info-content">
+                <h4>Amanda Jepson</h4>
+                <span>Accountant</span>
+              </div>
+              <div class="social">
+                <a href=""><i class="icofont-twitter"></i></a>
+                <a href=""><i class="icofont-facebook"></i></a>
+                <a href=""><i class="icofont-instagram"></i></a>
+                <a href=""><i class="icofont-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
     </div>
-  </div>
-</div>
+  </section><!-- End Team Section -->
+
+  <!-- ======= F.A.Q Section ======= -->
+  <section id="faq" class="faq section-bg">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>F.A.Q</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="faq-list">
+        <ul>
+          <li data-aos="fade-up">
+            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+              <p>
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="100">
+            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="200">
+            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+              <p>
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="300">
+            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in.
+              </p>
+            </div>
+          </li>
+
+          <li data-aos="fade-up" data-aos-delay="400">
+            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+              <p>
+                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+              </p>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </div>
+  </section><!-- End F.A.Q Section -->
+
+  <!-- ======= Contact Section ======= -->
+  <section id="contact" class="contact">
+    <div class="container">
+
+      <div class="section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+      </div>
+
+      <div class="row no-gutters justify-content-center" data-aos="fade-up">
+
+        <div class="col-lg-5 d-flex align-items-stretch">
+          <div class="info">
+            <div class="address">
+              <i class="icofont-google-map"></i>
+              <h4>Location:</h4>
+              <p>A108 Adam Street, New York, NY 535022</p>
+            </div>
+
+            <div class="email mt-4">
+              <i class="icofont-envelope"></i>
+              <h4>Email:</h4>
+              <p>info@example.com</p>
+            </div>
+
+            <div class="phone mt-4">
+              <i class="icofont-phone"></i>
+              <h4>Call:</h4>
+              <p>+1 5589 55488 55s</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        <div class="col-lg-5 d-flex align-items-stretch">
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        </div>
+
+      </div>
+
+      <div class="row mt-5 justify-content-center" data-aos="fade-up">
+        <div class="col-lg-10">
+          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <div class="form-row">
+              <div class="col-md-6 form-group">
+                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <div class="validate"></div>
+              </div>
+              <div class="col-md-6 form-group">
+                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <div class="validate"></div>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validate"></div>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validate"></div>
+            </div>
+            <div class="mb-3">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+            </div>
+            <div class="text-center"><button type="submit">Send Message</button></div>
+          </form>
+        </div>
+
+      </div>
+
+    </div>
+  </section><!-- End Contact Section -->
+
+</main><!-- End #main -->

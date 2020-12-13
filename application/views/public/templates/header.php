@@ -2,100 +2,86 @@
 <html lang="en">
 
 <head>
-<link rel="icon" type="image/x-icon" href="<?= base_url() ?>/assets/front/images/favicon.ico" />
-  <title><?= $judul; ?></title>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  
-  <style>
-  #more {display: none;}
-  </style>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <script>
-  function myFunction() {
-    var dots = document.getElementById("dots");
-    var moreText = document.getElementById("more");
-    var btnText = document.getElementById("myBtn");
+  <title>Industri Topi - H. M. Thoha</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    if (dots.style.display === "none") {
-      dots.style.display = "inline";
-      btnText.innerHTML = "Read more"; 
-      moreText.style.display = "none";
-    } else {
-      dots.style.display = "none";
-      btnText.innerHTML = "Read less"; 
-      moreText.style.display = "inline";
-    }
-  }
-  </script>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="assets/front/css/load-more.css">
+  <!-- Favicons -->
+  <link href="assets/front/img/favicon.png" rel="icon">
+  <link href="assets/front/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito+Sans:200,300,400,700,900">
-  <link rel="stylesheet" href="assets/front/fonts/icomoon/style.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/front/css/magnific-popup.css">
-  <link rel="stylesheet" href="assets/front/css/jquery-ui.css">
-  <link rel="stylesheet" href="assets/front/css/owl.carousel.min.css">
-  <link rel="stylesheet" href="assets/front/css/owl.theme.default.min.css">
-  <link rel="stylesheet" href="assets/front/css/bootstrap-datepicker.css">
+  <!-- Vendor CSS Files -->
+  <link href="assets/front/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/front/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/front/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/front/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/front/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/front/vendor/aos/aos.css" rel="stylesheet">
 
+  <!-- Template Main CSS File -->
+  <link href="assets/front/css/style.css" rel="stylesheet">
 
-  <link rel="stylesheet" href="assets/front/fonts/flaticon/font/flaticon.css">
-
-  <link rel="stylesheet" href="assets/front/css/aos.css">
-
-  <link rel="stylesheet" href="assets/front/css/style.css">
-
-  <div class="site-wrap">
-
-    <div class="site-mobile-menu">
-      <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-          <span class="icon-close2 js-menu-toggle"></span>
-        </div>
-      </div>
-      <div class="site-mobile-menu-body"></div>
-    </div>
-
-
-    <div class="site-navbar-wrap">
-      <div class="site-navbar-top">
-        <div class="container py-3">
-          <div class="row align-items-center">
-            <div class="col-6">
-              <div class="d-flex ml-auto">
-                <a href="#" class="d-flex align-items-center">
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="site-navbar">
-        <div class="container py-1">
-          <div class="row align-items-center">
-            <div class="col-2">
-              <h1 class="mb-0 site-logo"><a href="<?= base_url(); ?>home">Ruang Respons</a></h1>
-            </div>
-            <div class="col-10">
-              <nav class="site-navigation text-right" role="navigation">
-                <div class="container">
-                  <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
-                  <ul class="site-menu js-clone-nav d-none d-lg-block">
-                    <li><a href="<?= base_url(); ?>home">Home</a></li>
-                    <li><a href="<?= base_url(); ?>projects">Projects</a></li>
-                    <li><a href="<?= base_url(); ?>designer">Designer</a></li>
-                    <li><a href="<?= base_url(); ?>about">About Us</a></li>
-                    <li><a href="<?= base_url(); ?>contact">Contact Us</a></li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+  <!-- =======================================================
+  * Template Name: Maxim - v2.3.0
+  * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex">
+
+      <div class="logo mr-auto">
+        <h1 class="text-light"><a href="index.html">H. M. Thoha</a></h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Beranda</a></li>
+          <li><a href="#about">Tentang Kami</a></li>
+          <li><a href="#services">Produk Jasa</a></li>
+          <!-- <li class="drop-down"><a href="">Drop Down</a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="drop-down"><a href="#">Drop Down 2</a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Drop Down 5</a></li>
+            </ul>
+          </li> -->
+          <li><a href="#contact">Hubungi Kami</a></li>
+
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="container text-center text-md-left" data-aos="fade-up">
+      <h1>Selamat Datang</h1>
+      <h2>Industri Topi - H. M. Thoha Sidoarjo</h2>
+      <a href="#about" class="btn-get-started scrollto">Lebih Lanjut</a>
+    </div>
+  </section><!-- End Hero -->
