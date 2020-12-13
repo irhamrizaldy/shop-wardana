@@ -6,7 +6,7 @@
 
       <div class="row">
         <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-          <img src="assets/img/about-img.jpg" class="img-fluid" alt="">
+          <img src="assets/front/img/about-img.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
           <h3 data-aos="fade-up">Voluptatem dignissimos provident</h3>
