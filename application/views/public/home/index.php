@@ -151,8 +151,8 @@
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
-        <h2>Services</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <h2>Produk Jasa</h2>
+        <p>Produk yang ditawarkan oleh Industri Topi H. M. Thoha</p>
       </div>
 
       <div class="row">
@@ -484,7 +484,7 @@
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
-        <h2>Contact</h2>
+        <h2>Hubungi Kami</h2>
         <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
       </div>
 
@@ -494,8 +494,8 @@
           <div class="info">
             <div class="address">
               <i class="icofont-google-map"></i>
-              <h4>Location:</h4>
-              <p>A108 Adam Street, New York, NY 535022</p>
+              <h4>Lokasi:</h4>
+              <p>Jl. Manyar I/17 RT4 RW4 Punggul, Gedangan, Sidoarjo - Jawa Timur</p>
             </div>
 
             <div class="email mt-4">
@@ -506,8 +506,8 @@
 
             <div class="phone mt-4">
               <i class="icofont-phone"></i>
-              <h4>Call:</h4>
-              <p>+1 5589 55488 55s</p>
+              <h4>Telepon:</h4>
+              <p>+62 817 322 353</p>
             </div>
 
           </div>
@@ -515,7 +515,7 @@
         </div>
 
         <div class="col-lg-5 d-flex align-items-stretch">
-          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+          <iframe style="border:0; width: 100%; height: 270px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.5721319273043!2d112.7402489144957!3d-7.401743574934704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd7e44250d25275%3A0x5eb4b588f6ba2c17!2sJl.%20Manyar%20I%2C%20Ngudi%2C%20Punggul%2C%20Kec.%20Gedangan%2C%20Kabupaten%20Sidoarjo%2C%20Jawa%20Timur%2061254!5e0!3m2!1sid!2sid!4v1607897806803!5m2!1sid!2sid" frameborder="0" allowfullscreen></iframe>
         </div>
 
       </div>
@@ -525,11 +525,11 @@
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="form-row">
               <div class="col-md-6 form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <input type="text" name="name" class="form-control" id="name" placeholder="Nama" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                 <div class="validate"></div>
               </div>
               <div class="col-md-6 form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                <input type="email" class="form-control" name="email" id="email" placeholder="Email" data-rule="email" data-msg="Please enter a valid email" />
                 <div class="validate"></div>
               </div>
             </div>
@@ -538,7 +538,7 @@
               <div class="validate"></div>
             </div>
             <div class="form-group">
-              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Pesan"></textarea>
               <div class="validate"></div>
             </div>
             <div class="mb-3">
