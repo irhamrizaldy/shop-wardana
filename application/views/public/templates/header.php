@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/front/img/favicon.png" rel="icon">
+  <link href="assets/front/img/favs.png" rel="icon">
   <link href="assets/front/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -42,14 +42,14 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <h1 class="text-light"><a href="index.html">H. M. Thoha</a></h1>
+        <h1 class="text-light"><a href="<?= base_url() ?>">H. M. Thoha</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
-          <li class="active"><a href="index.html">Beranda</a></li>
+          <li class="active"><a href="<?= base_url() ?>">Beranda</a></li>
           <li><a href="#about">Tentang Kami</a></li>
           <li><a href="#services">Produk Jasa</a></li>
           <!-- <li class="drop-down"><a href="">Drop Down</a>
@@ -69,6 +69,7 @@
               <li><a href="#">Drop Down 5</a></li>
             </ul>
           </li> -->
+          <li><a href="#faq">Cara Order</a></li>
           <li><a href="#contact">Hubungi Kami</a></li>
 
         </ul>
