@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-  
+
 <?php $this->load->view('public/templates/header'); ?>
 
 <body>
-<div class="wrapper">
+  <div class="wrapper">
 
 
     <!-- Left side column. contains the logo and sidebar -->
 
-  <!-- Content Wrapper. Contains page content -->
+    <!-- Content Wrapper. Contains page content -->
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Main content -->
@@ -26,7 +26,7 @@
     <!-- /.content-wrapper -->
 
     <?php $this->load->view('public/templates/footer');  ?>
-  
-  </body>
+
+</body>
 
 </html>
