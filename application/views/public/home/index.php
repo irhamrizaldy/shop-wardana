@@ -435,8 +435,10 @@
             <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">Bagaimana cara order pesanan via Whatsapp?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
             <div id="faq-list-1" class="collapse">
               <p>
-                1. Klik tombol Whatsapp di pojok kiri bawah</br>
-                2. Tunggu sampai</br>
+                1. Klik tombol Whatsapp di pojok kanan bawah</br>
+                2. Tunggu sampai layar chat terbuka, kemudian pilih "Start Chat"</br>
+                3. Customer akan diarahkan menuju Whatsapp Owner Industri</br>
+                4. Silakan melakukan obrolan dengan Owner melalui Whatsapp Messenger</br>
               </p>
             </div>
           </li>
