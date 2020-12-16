@@ -38,7 +38,7 @@
   </section><!-- End About Section -->
 
   <!-- ======= Steps Section ======= -->
-  <section id="steps" class="steps section-bg">
+  <!-- <section id="steps" class="steps section-bg">
     <div class="container">
 
       <div class="row no-gutters">
@@ -81,11 +81,12 @@
 
       </div>
 
-    </div>
-  </section><!-- End Steps Section -->
+    </div> -->
+  <!-- </section> -->
+  <!-- End Steps Section -->
 
   <!-- ======= Features Section ======= -->
-  <section id="features" class="features">
+  <!-- <section id="features" class="features">
     <div class="container">
 
       <div class="row">
@@ -144,7 +145,8 @@
       </div>
 
     </div>
-  </section><!-- End Features Section -->
+  </section> -->
+  <!-- End Features Section -->
 
   <!-- ======= Services Section ======= -->
   <section id="services" class="services section-bg">
@@ -152,7 +154,7 @@
 
       <div class="section-title" data-aos="fade-up">
         <h2>Produk Jasa</h2>
-        <p>Produk yang ditawarkan oleh Industri Topi H. M. Thoha</p>
+        <!-- <p>Produk yang ditawarkan oleh Industri Topi H. M. Thoha</p> -->
       </div>
 
       <div class="row">
@@ -194,7 +196,7 @@
   </section><!-- End Services Section -->
 
   <!-- ======= Testimonials Section ======= -->
-  <section id="testimonials" class="testimonials">
+  <!-- <section id="testimonials" class="testimonials">
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
@@ -262,7 +264,8 @@
       </div>
 
     </div>
-  </section><!-- End Testimonials Section -->
+  </section> -->
+  <!-- End Testimonials Section -->
 
   <!-- ======= Portfolio Section ======= -->
   <section id="portfolio" class="portfolio section-bg">
@@ -270,10 +273,10 @@
 
       <div class="section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
       </div>
 
-      <div class="row" data-aos="fade-up">
+      <!-- <div class="row" data-aos="fade-up">
         <div class="col-lg-12 d-flex justify-content-center">
           <ul id="portfolio-flters">
             <li data-filter="*" class="filter-active">All</li>
@@ -282,7 +285,7 @@
             <li data-filter=".filter-web">Web</li>
           </ul>
         </div>
-      </div>
+      </div> -->
 
       <div class="row portfolio-container" data-aos="fade-up">
 
@@ -486,7 +489,7 @@
 
       <div class="section-title" data-aos="fade-up">
         <h2>Hubungi Kami</h2>
-        <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+        <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
       </div>
 
       <div class="row no-gutters justify-content-center" data-aos="fade-up">
@@ -499,11 +502,11 @@
               <p>Jl. Manyar I/17 RT4 RW4 Punggul, Gedangan, Sidoarjo - Jawa Timur</p>
             </div>
 
-            <div class="email mt-4">
+            <!-- <div class="email mt-4">
               <i class="icofont-envelope"></i>
               <h4>Email:</h4>
               <p>info@example.com</p>
-            </div>
+            </div> -->
 
             <div class="phone mt-4">
               <i class="icofont-phone"></i>
@@ -521,7 +524,7 @@
 
       </div>
 
-      <div class="row mt-5 justify-content-center" data-aos="fade-up">
+      <!-- <div class="row mt-5 justify-content-center" data-aos="fade-up">
         <div class="col-lg-10">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="form-row">
@@ -551,7 +554,7 @@
           </form>
         </div>
 
-      </div>
+      </div> -->
 
     </div>
   </section><!-- End Contact Section -->
