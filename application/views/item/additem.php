@@ -30,7 +30,7 @@
                         <div class="col-md-5 col-sm-12 col-xs-12">
                             <input type="file" class="form-control col-md-7 col-xs-12" name="img">
                             <small class="form-text text-danger"><?= form_error('img'); ?></small>
-                            <p class="help-text">* Ukuran Gambar Maximal 2 Mb.</p>
+                            <!-- <p class="help-text">* Ukuran Gambar Maximal 2 Mb.</p> -->
                         </div>
                     </div>
 

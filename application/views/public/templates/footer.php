@@ -50,14 +50,14 @@
                     </ul> -->
                 </div>
 
-                <div class="col-lg-4 col-md-6 footer-newsletter">
+                <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
                     <h4>Berita Terupdate</h4>
                     <p>Dapatkan berita terbaru dari Industri Topi - H. M. Thoha dengan berlangganan dibawah ini!</p>
                     <form action="" method="post">
                         <input type="email" name="email"><input type="submit" value="Langganan">
                     </form>
 
-                </div>
+                </div> -->
 
             </div>
         </div>

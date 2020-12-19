@@ -12,7 +12,8 @@
             <div class="box-body">
                 <?php foreach ($details as $detail) : ?>
                     <div class="col-md-5 col-sm-6">
-                        <img src="<?= base_url('') ?>assets/front/images/<?= $detail['img'] ?>" width="350px" height="350px">
+                        <!-- <img src="<?= base_url('') ?>assets/front/images/<?= $detail['img'] ?>" width="350px" height="350px"> -->
+                        <img src="<?= base_url() . 'assets/front/images/' . $detail['img'] ?>" width="350px" height="350px">
                     </div>
                     <div class="col-md-6 col-sm-6">
                         <table class="table table-striped">

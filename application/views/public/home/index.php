@@ -160,7 +160,7 @@
       <div class="row">
         <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
           <div class="icon-box icon-box-pink">
-          <img src="assets/front/img/topi-sekolah.jpg" class="img-fluid" alt="">
+            <img src="assets/front/img/topi-sekolah.jpg" class="img-fluid" alt="">
             <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
             <h4 class="title"><a href="">Topi Sekolah</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
@@ -169,7 +169,7 @@
 
         <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
           <div class="icon-box icon-box-cyan">
-          <img src="assets/front/img/topi-pramuka.jpg" class="img-fluid" alt="">
+            <img src="assets/front/img/topi-pramuka.jpg" class="img-fluid" alt="">
             <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
             <h4 class="title"><a href="">Topi Pramuka</a></h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
@@ -178,7 +178,7 @@
 
         <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
           <div class="icon-box icon-box-green">
-          <img src="assets/front/img/topi-instansi.jpg" class="img-fluid" alt="">
+            <img src="assets/front/img/topi-instansi.jpg" class="img-fluid" alt="">
             <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
             <h4 class="title"><a href="">Topi Instansi</a></h4>
             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
@@ -275,7 +275,7 @@
     <div class="container">
 
       <div class="section-title" data-aos="fade-up">
-        <h2>Portfolio</h2>
+        <h2>Portofolio</h2>
         <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
       </div>
 
@@ -289,24 +289,28 @@
           </ul>
         </div>
       </div> -->
+      <!-- <?php var_dump($item); ?> -->
 
       <div class="row portfolio-container" data-aos="fade-up">
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+        <?php foreach ($item as $item) : ?>
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-wrap">
+              <!-- <img src="assets/front/img/portfolio/portfolio-1.jpg" class="img-fluid" alt=""> -->
+              <img src="<?= base_url() . 'assets/front/images/' . $item['img'] ?>" class="img-fluid" alt="" width="350px" height="350px">
+              <!-- <div class="portfolio-info">
+                <h4>App 1</h4>
+                <p>App</p>
+                <div class="portfolio-links">
+                  <a href="assets/front/img/portfolio/portfolio-1.jpg" data-gall="portfolioGallery" class="venobox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
+                </div>
+              </div> -->
             </div>
           </div>
-        </div>
+        <?php endforeach; ?>
 
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+        <!-- <div class="col-lg-4 col-md-6 portfolio-item filter-web">
           <div class="portfolio-wrap">
             <img src="assets/front/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
@@ -319,108 +323,9 @@
             </div>
           </div>
         </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-3.jpg" data-gall="portfolioGallery" class="venobox" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-4.jpg" data-gall="portfolioGallery" class="venobox" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-5.jpg" data-gall="portfolioGallery" class="venobox" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-6.jpg" data-gall="portfolioGallery" class="venobox" title="App 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-7.jpg" data-gall="portfolioGallery" class="venobox" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-8.jpg" data-gall="portfolioGallery" class="venobox" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-          <div class="portfolio-wrap">
-            <img src="assets/front/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <div class="portfolio-links">
-                <a href="assets/front/img/portfolio/portfolio-9.jpg" data-gall="portfolioGallery" class="venobox" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
-            </div>
-          </div>
-        </div>
+      </div> -->
 
       </div>
-
-    </div>
   </section><!-- End Portfolio Section -->
 
   <!-- ======= F.A.Q Section ======= -->
