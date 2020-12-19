@@ -42,8 +42,10 @@
     <div class="container d-flex">
 
       <div class="logo mr-auto">
-        <img src="assets/front/img/logo-brand.png" width="30"></img>
-        <h1 class="text-light"><a href="<?= base_url() ?>">H. M. Thoha</a></h1>
+        <img src="assets/front/img/logo-brand.png" width="50"></img>
+        <!-- <div class="col col-md-10">
+            <h1 class="text-light"><a href="<?= base_url() ?>">H. M. Thoha</a></h1>
+          </div> -->
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
       </div>
