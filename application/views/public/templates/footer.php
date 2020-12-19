@@ -35,8 +35,11 @@
                     </ul>
                 </div>
 
-                <div class="col-lg-3 col-md-6 footer-links">
-                    <img src="assets/front/img/logo.jpg"></img>
+                <div class="col-lg-3 col-md-6 footer-links" align="center">
+                    <br>
+                    <br>
+                    <br>
+                    <img src="assets/front/img/logo.png" width="100"></img>
                     <!-- <h4>Our Services</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
