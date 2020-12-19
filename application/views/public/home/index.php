@@ -6,29 +6,29 @@
 
       <div class="row">
         <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-          <img src="assets/front/img/about-img.jpg" class="img-fluid" alt="">
+          <img src="assets/front/img/about-img2.jpg" class="img-fluid" alt="">
         </div>
         <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
           <h3 data-aos="fade-up">Apa itu Industri Topi H. M. Thoha?</h3>
           <p data-aos="fade-up">
-            Industri Topi H. M. Thoha merupakan sebuah industri perajin topi yang berdiri dari tahun 1970 di Desa Punggul, Gedangan.
+            Industri Topi H. M. Thoha merupakan sebuah industri perajin topi yang berdiri dari tahun 1970 di Desa Punggul, Gedangan. Sidoarjo
           </p>
           <div class="icon-box" data-aos="fade-up">
-            <i class="bx bx-receipt"></i>
-            <h4>Corporis voluptates sit</h4>
-            <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+            <!-- <i class="bx bx-receipt"></i> -->
+            <i class='bx bxs-check-circle'></i>
+            <h4>Menerima Pesanan Topi Sekolah (SD/SMP/SMA)</h4>
           </div>
 
           <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-            <i class="bx bx-cube-alt"></i>
-            <h4>Ullamco laboris nisi</h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            <!-- <i class="bx bx-cube-alt"></i> -->
+            <i class='bx bxs-check-circle'></i>
+            <h4>Menerima Pesanan Topi Pramuka</h4>
           </div>
 
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-            <i class="bx bx-cube-alt"></i>
-            <h4>Ullamco laboris nisi</h4>
-            <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+            <!-- <i class="bx bx-cube-alt"></i> -->
+            <i class='bx bxs-check-circle'></i>
+            <h4>Menerima Pesanan Topi Instansi/Lembaga</h4>
           </div>
 
         </div>
@@ -158,37 +158,40 @@
       </div>
 
       <div class="row">
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up">
           <div class="icon-box icon-box-pink">
-            <div class="icon"><i class="bx bxl-dribbble"></i></div>
-            <h4 class="title"><a href="">Lorem Ipsum</a></h4>
+          <img src="assets/front/img/topi-sekolah.jpg" class="img-fluid" alt="">
+            <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+            <h4 class="title"><a href="">Topi Sekolah</a></h4>
             <p class="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
           <div class="icon-box icon-box-cyan">
-            <div class="icon"><i class="bx bx-file"></i></div>
-            <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
+          <img src="assets/front/img/topi-pramuka.jpg" class="img-fluid" alt="">
+            <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+            <h4 class="title"><a href="">Topi Pramuka</a></h4>
             <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
           <div class="icon-box icon-box-green">
-            <div class="icon"><i class="bx bx-tachometer"></i></div>
-            <h4 class="title"><a href="">Magni Dolores</a></h4>
+          <img src="assets/front/img/topi-instansi.jpg" class="img-fluid" alt="">
+            <!-- <div class="icon"><i class="bx bxl-dribbble"></i></div> -->
+            <h4 class="title"><a href="">Topi Instansi</a></h4>
             <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim</p>
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+        <!-- <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
           <div class="icon-box icon-box-blue">
             <div class="icon"><i class="bx bx-world"></i></div>
             <h4 class="title"><a href="">Nemo Enim</a></h4>
             <p class="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum</p>
           </div>
-        </div>
+        </div> -->
 
       </div>
 

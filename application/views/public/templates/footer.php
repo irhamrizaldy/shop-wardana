@@ -27,23 +27,23 @@
                 <div class="col-lg-2 col-md-6 footer-links">
                     <h4>Useful Links</h4>
                     <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Beranda</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Tentang Kami</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Produk Jasa</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Syarat dan Ketentuan</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Kebijakan Kami</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>">Beranda</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Produk Jasa</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#faq">Syarat dan Ketentuan</a></li>
+                        <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kebijakan Kami</a></li>
                     </ul>
                 </div>
 
                 <div class="col-lg-3 col-md-6 footer-links">
-                    <h4>Our Services</h4>
+                    <!-- <h4>Our Services</h4>
                     <ul>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
                         <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul>
+                    </ul> -->
                 </div>
 
                 <div class="col-lg-4 col-md-6 footer-newsletter">
