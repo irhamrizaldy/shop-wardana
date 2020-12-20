@@ -5,10 +5,11 @@
     <div class="container">
 
       <div class="row">
-        <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-          <img src="assets/front/img/about-img2.jpg" class="img-fluid" alt="">
+        <div class="col-xl-7  col-lg-7" data-aos="fade-right">
+          <!-- <img src="assets/front/img/about-img2.jpg" class="img-fluid" alt=""> -->
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/ugvuuJ3tXNw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-        <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0">
+        <div class="col-xl-5 col-lg-5 pt-5 pt-lg-0">
           <h3 data-aos="fade-up">Apa itu Industri Topi H. M. Thoha?</h3>
           <p data-aos="fade-up">
             Industri Topi H. M. Thoha merupakan sebuah industri perajin topi yang berdiri dari tahun 1970 di Desa Punggul, Gedangan. Sidoarjo
