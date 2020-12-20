@@ -11,18 +11,26 @@
             <!-- /.box-header -->
             <div class="box-body">
                 <?php foreach ($details as $detail) : ?>
-                    <!-- <div class="col-md-5 col-sm-6">
-                        <img src="<?= base_url('') ?>assets/front/images/<?= $detail['img_bukti_tf'] ?>" width="350px" height="350px">
-                    </div> -->
+                    <div class="col-md-5 col-sm-6">
+                        <img src="<?= base_url() . 'assets/img/trc/' . $detail['img'] ?>" width="350px">
+                    </div>
                     <div class="col-md-6 col-sm-6">
                         <table class="table table-striped">
                             <tr>
-                                <td>ID Transact</td>
-                                <td>: <?= $detail['id_trc'] ?></td>
+                                <td>Nama</td>
+                                <td>: <?= $detail['nama'] ?></td>
                             </tr>
                             <tr>
-                                <td>Nama Transact</td>
-                                <td>: <?= $detail['nm_trc'] ?></td>
+                                <td>Kontak</td>
+                                <td>: <?= $detail['kontak'] ?></td>
+                            </tr>
+                            <tr>
+                                <td>Alamat</td>
+                                <td>: <?= $detail['alamat'] ?></td>
+                            </tr>
+                            <tr>
+                                <td>Pesanan</td>
+                                <td>: <?= $detail['pesanan'] ?></td>
                             </tr>
                             <tr>
                                 <td>Status</td>

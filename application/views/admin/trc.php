@@ -16,6 +16,7 @@
                     <thead>
                         <tr>
                             <th width="5%">No</th>
+                            <th>Nama</th>
                             <th>Riwayat Transaksi</th>
                             <th>Status</th>
                             <th width="19%">Aksi</th>
@@ -26,7 +27,8 @@
                         <?php foreach ($item as $produk) : ?>
                             <tr>
                                 <td><?php echo $nomor ?></td>
-                                <td><?php echo $produk['r_trc'] ?></td>
+                                <td><?php echo $produk['nama'] ?></td>
+                                <td><?php echo $produk['pesanan'] ?></td>
                                 <td><?php echo $produk['status'] ?></td>
                                 <td>
                                     <a href="<?= base_url('') ?>admin/trc/detailItem/<?= $produk['id_trc'] ?>" class="btn btn-primary">Detail</a>
