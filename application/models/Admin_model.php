@@ -41,7 +41,7 @@ class Admin_model extends CI_Model
 
     public function getTscById($id = '')
     {
-        $query = $this->db->query("SELECT * FROM pembelian JOIN pelanggan ON pelanggan.id_pelanggan = pembelian.id_pelanggan WHERE id_pembelian = '$id'");
+        $query = $this->db->query("SELECT * FROM log_trc WHERE id_trc = '$id'");
         // $this->db->get_where($table, array($key => $id))->result_array();
         return $query->result_array();
     }
@@ -85,16 +85,16 @@ class Admin_model extends CI_Model
         $vals = $_REQUEST['val'];
 
         if ($vals == 1) {
-            $statusTsc = 0;
+            $status = 0;
         } else {
-            $statusTsc = 1;
+            $status = 1;
         }
 
         $data = array(
-            'statusTsc' => $statusTsc
+            'status' => $status
         );
-        $this->db->where('id_pembelian', $id);
-        return $this->db->update('pembelian', $data);
+        $this->db->where('id_trc', $id);
+        return $this->db->update('log_trc', $data);
     }
 
     public function getCountTrc()
