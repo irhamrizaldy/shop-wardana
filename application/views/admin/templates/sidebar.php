@@ -1,56 +1,54 @@
-<aside class="main-sidebar">
-  <!-- sidebar: style can be found in sidebar.less -->
-  <section class="sidebar">
-    <!-- Sidebar user panel -->
-    <div class="user-panel">
-      <div class="pull-left image">
-        <img src="<?= base_url('') ?>assets/img/admin/User-icon.png" class="img-circle" alt="User Image">
+<!-- Main Sidebar Container -->
+<aside class="main-sidebar sidebar-dark-primary elevation-4">
+  <!-- Brand Logo -->
+  <a class="brand-link">
+    <img src="<?= base_url('assets/bend/') ?>dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+    <span class="brand-text font-weight-light">AdminLTE 3</span>
+  </a>
+
+  <!-- Sidebar -->
+  <div class="sidebar">
+    <!-- Sidebar user panel (optional) -->
+    <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+      <div class="image">
+        <img src="<?= base_url('assets/bend/') ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
       </div>
-      <div class="pull-left info">
-        <?php if (isset($_SESSION['email'])) { ?>
-          <p><?= ($_SESSION['nama']) ?></p>
-          <a><i class="fa fa-circle text-success"></i> Online</a>
-        <?php } else { ?>
-          <p>Anon</p>
-          <a><i class="fa fa-circle text-failed"></i> Offline</a>
-        <?php } ?>
+      <div class="info">
+        <a class="d-block"><?= ($_SESSION['username']) ?></a>
       </div>
     </div>
-    <!-- search form -->
-
-    <!-- /.search form -->
-    <!-- sidebar menu: : style can be found in sidebar.less -->
-    <ul class="sidebar-menu" data-widget="tree">
-      <li class="header">MAIN NAVIGATION</li>
-      <li class="">
-        <a href="<?= base_url() ?>admin/home">
-          <i class="fa fa-dashboard"></i>
-          <span>Dashboard</span>
-        </a>
-      </li>
-      <li class="">
-        <a href="<?= base_url() ?>admin/trc">
-          <i class="fa fa-cubes"></i>
-          <span>Riwayat Transaksi</span>
-        </a>
-      </li>
-      <li class="">
-        <a href="<?= base_url() ?>admin/item">
-          <i class="fa fa-exchange"></i>
-          <span>Barang Dagang</span>
-        </a>
-      </li>
-      <li class="">
-        <a href="<?= base_url() ?>admin/news">
-          <i class="fa fa-book"></i>
-          <span>Berita</span>
-        </a>
-      </li> -->
-
-
-      <!-- <li class="header">SETTING</li>
-      <li><a href="#"><i class="fa fa-gears"></i> <span>Edit Profile</span></a></li>
-    </ul> -->
-  </section>
+    <!-- Sidebar Menu -->
+    <nav class="mt-2">
+      <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+        <!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+        <li class="nav-item">
+          <a href="<?= base_url() ?>admin/home" class="nav-link">
+            <i class="nav-icon fas fa-book"></i>
+            <p>
+              Dashboard
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url() ?>admin/item" class="nav-link">
+            <i class="nav-icon fas fa-table"></i>
+            <p>
+              Tambah Barang
+            </p>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="<?= base_url() ?>admin/login/auth/registration" class="nav-link">
+            <i class="nav-icon fas fa-edit"></i>
+            <p>
+              Tambah Admin
+            </p>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <!-- /.sidebar-menu -->
+  </div>
   <!-- /.sidebar -->
 </aside>

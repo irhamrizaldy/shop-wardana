@@ -19,16 +19,16 @@ $('.tombol-hapus').on('click', function (e) {
 
     Swal.fire({
         title: 'Apakah Anda yakin ?',
-        	text: "Data Item akan dihapus !",
-        	type: 'warning',
-        	showCancelButton: true,
-        	confirmButtonColor: '#3085d6',
-            cancelButtonColor: '#d33',
-        	confirmButtonText: 'Hapus data !'
-        }).then((result) => {
-        			if (result.value) {
-                        document.location.href = href;
-        			}
+        text: "Data Item akan dihapus !",
+        type: 'warning',
+        showCancelButton: true,
+        confirmButtonColor: '#3085d6',
+        cancelButtonColor: '#d33',
+        confirmButtonText: 'Hapus data !'
+    }).then((result) => {
+        if (result.value) {
+            document.location.href = href;
+        }
     })
 
 });

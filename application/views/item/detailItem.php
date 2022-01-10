@@ -1,40 +1,24 @@
 <div class="row">
-    <div class="col-xs-12">
-        <div class="box">
-            <div class="box-header">
-                <h3 class="box-title">Detail Barang</h3>
-                <hr>
-                <div class="flash-data" data-flashdata="<?= $this->session->flashdata('flash'); ?>"></div>
-                <?php if ($this->session->flashdata('flash')) : ?>
-                <?php endif; ?>
-            </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <?php foreach ($details as $detail) : ?>
-                    <div class="col-md-5 col-sm-6">
-                        <!-- <img src="<?= base_url('') ?>assets/front/images/<?= $detail['img'] ?>" width="350px" height="350px"> -->
-                        <img src="<?= base_url() . 'assets/front/images/' . $detail['img'] ?>" width="350px" height="350px">
-                    </div>
-                    <div class="col-md-6 col-sm-6">
-                        <table class="table table-striped">
-                            <tr>
-                                <td>Nama Barang</td>
-                                <td>: <?= $detail['nm_itm'] ?></td>
-                            </tr>
-                            <tr>
-                                <td>Harga</td>
-                                <td>: <?= $detail['prc_itm'] ?></td>
-                            </tr>
-                            <tr>
-                                <td>Deskripsi</td>
-                                <td>: <?= $detail['desc_itm'] ?></td>
-                            </tr>
-                        </table>
-                    <?php endforeach; ?>
-                    <a href="#" class="btn btn-default" onclick="window.history.go(-1)">Kembali</a>
-                    <a href="<?= base_url('') ?>item/updateItem/<?= $detail['id_itm'] ?>" class="btn btn-warning">Edit</a>
-                    </div>
+    <?php foreach ($details as $detail) : ?>
+        <div class="flash-data" data-flashdata="<?= $this->session->flashdata('flash'); ?>"></div>
+        <?php if ($this->session->flashdata('flash')) : ?>
+        <?php endif; ?>
+        <div class="col-12 col-sm-6">
+            <div class="col-12">
+                <img src="<?= base_url() . 'assets/front/images/' . $detail['gambar_barang'] ?>" width="500px" height="400px">
             </div>
         </div>
-    </div>
+        <div class="col-12 col-sm-6">
+            <h3 class="my-3"><?= $detail['nama_barang'] ?></h3>
+            <hr>
+            <div class="bg-gray py-2 px-3 mt-4">
+                <h2 class="mb-0">
+                    Rp. <?= $detail['harga_barang'] ?>
+                </h2>
+                <h4 class="mt-0">
+                    <small>Stok: <?= $detail['stok_barang'] ?> </small>
+                </h4>
+            </div>
+        <?php endforeach; ?>
+        </div>
 </div>

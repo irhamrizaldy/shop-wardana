@@ -11,12 +11,11 @@ class Home extends CI_Controller
 
     public function index()
     {
-        if ($this->session->userdata('email') == FALSE) {
+        if ($this->session->userdata('username') == FALSE) {
             redirect('admin/login/auth');
         } else {
-            $data['data_trc'] = $this->Admin_model->getCountTrc();
-            $data['data_item'] = $this->Admin_model->getCountItem();
-            $data['news'] = $this->Admin_model->getCountNews();
+            $data['tbl_barang'] = $this->Admin_model->getJumlahBarang();
+            $data['tbl_pembeli'] = $this->Admin_model->getJumlahPembeli();
             $data['content'] = 'admin/dashboard';
             $data['judul'] = 'Dashboard';
             $data['title'] = 'Dashboard - Page';

@@ -6,6 +6,24 @@ defined('BASEPATH') or exit('No direct script access allowed');
 class Admin_model extends CI_Model
 {
 
+    public function getJumlahBarang()
+    {
+        $this->db->select('tbl_barang.id, count(tbl_barang.id) as total');
+        $query = $this->db->get('tbl_barang');
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        }
+    }
+
+    public function getJumlahPembeli()
+    {
+        $this->db->select('tbl_pembeli.id, count(tbl_pembeli.id) as total');
+        $query = $this->db->get('tbl_pembeli');
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        }
+    }
+
     public function getJoinItem()
     {
         $this->db->select('*');
@@ -95,33 +113,6 @@ class Admin_model extends CI_Model
         );
         $this->db->where('id_trc', $id);
         return $this->db->update('log_trc', $data);
-    }
-
-    public function getCountTrc()
-    {
-        $this->db->select('log_trc.id_trc, count(log_trc.id_trc) as total');
-        $query = $this->db->get('log_trc');
-        if ($query->num_rows() > 0) {
-            return $query->result();
-        }
-    }
-
-    public function getCountItem()
-    {
-        $this->db->select('log_item.id_itm, count(log_item.id_itm) as total');
-        $query = $this->db->get('log_item');
-        if ($query->num_rows() > 0) {
-            return $query->result();
-        }
-    }
-
-    public function getCountNews()
-    {
-        $this->db->select('log_news.id_news, count(log_news.id_news) as total');
-        $query = $this->db->get('log_news');
-        if ($query->num_rows() > 0) {
-            return $query->result();
-        }
     }
 
 

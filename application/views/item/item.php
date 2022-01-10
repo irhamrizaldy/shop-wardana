@@ -1,37 +1,36 @@
 <div class="row">
-    <div class="col-xs-12">
-        <div class="box">
-            <div class="box-header">
-                <h3 class="box-title">Barang Dagang</h3>
-                <hr>
-                <div class="flash-data" data-flashdata="<?= $this->session->flashdata('flash');
-                                                        ?>"></div>
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <a href="<?= base_url('') ?>admin/item/addItem" class="btn btn-primary">Tambah Barang</a>
+                <div class="flash-data" data-flashdata="<?= $this->session->flashdata('flash'); ?>"></div>
                 <?php if ($this->session->flashdata('flash')) : ?>
                 <?php endif; ?>
-                <a href="<?= base_url('') ?>admin/item/addItem" class="btn btn-primary">Tambah Barang Dagang Baru</a>
             </div>
-            <!-- /.box-header -->
-            <div class="box-body">
-                <table id="example2" class="table table-bordered table-hover">
+            <!-- /.card-header -->
+            <div class="card-body table-responsive p-0">
+                <table class="table table-hover text-nowrap">
                     <thead>
                         <tr>
-                            <th width="5%">No</th>
+                            <th>NO</th>
                             <th>Nama Barang</th>
                             <th>Harga</th>
-                            <th width="19%">Aksi</th>
+                            <th>Stok</th>
+                            <th>Aksi</th>
                         </tr>
                     </thead>
                     <tbody>
                         <?php $nomor = 1; ?>
-                        <?php foreach ($item as $produk) : ?>
+                        <?php foreach ($item as $barang) : ?>
                             <tr>
                                 <td><?php echo $nomor ?></td>
-                                <td><?php echo $produk['nm_itm'] ?></td>
-                                <td><?php echo $produk['prc_itm'] ?></td>
+                                <td><?php echo $barang['nama_barang'] ?></td>
+                                <td>Rp. <?php echo $barang['harga_barang'] ?></td>
+                                <td><?php echo $barang['stok_barang'] ?></td>
                                 <td>
-                                    <a href="<?= base_url('') ?>admin/item/detailItem/<?= $produk['id_itm'] ?>" class="btn btn-primary">Detail</a>
-                                    <a href="<?= base_url('') ?>admin/item/updateItem/<?= $produk['id_itm'] ?>" class="btn btn-warning">Ubah</a>
-                                    <a href="<?= base_url('') ?>admin/item/deleteItem/<?= $produk['id_itm'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
+                                    <a href="<?= base_url('') ?>admin/item/detailItem/<?= $barang['id'] ?>" class="btn btn-primary">Detail</a>
+                                    <!-- <a href="<?= base_url('') ?>admin/item/updateItem/<?= $barang['id'] ?>" class="btn btn-warning tombol-update">Ubah</a> -->
+                                    <a href="<?= base_url('') ?>admin/item/deleteItem/<?= $barang['id'] ?>" class="btn btn-danger tombol-hapus">Hapus</a>
                                 </td>
                             </tr>
                             <?php $nomor++; ?>
@@ -39,6 +38,8 @@
                     </tbody>
                 </table>
             </div>
+            <!-- /.card-body -->
         </div>
+        <!-- /.card -->
     </div>
 </div>
