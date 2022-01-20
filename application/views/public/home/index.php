@@ -79,33 +79,31 @@
         <i class="zmdi zmdi-menu"></i>
       </div>
       <div class="dropdown-menu">
-        <div class="item">
+        <!-- <div class="item">
           <a href="#" title="Log in to your customer account"><i class="fa fa-cog"></i>My Account</a>
-        </div>
+        </div> -->
         <div class="item">
           <a href="user-login.html" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
         </div>
         <div class="item">
           <a href="user-register.html" title="Register Account"><i class="fa fa-user"></i>Register</a>
         </div>
-        <div class="item">
+        <!-- <div class="item">
           <a href="#" title="My Wishlists"><i class="fa fa-heart"></i>My Wishlists</a>
-        </div>
-        <div class="item">
-          <!-- Language -->
+        </div> -->
+        <!-- <div class="item">
           <div class="language switcher">
             <a href="#" title="Language English" class="active"><img src="assets/front/img/language-en.jpg" alt="Language English"></a>
             <a href="#" title="Language French"><img src="assets/front/img/language-fr.jpg" alt="Language French"></a>
             <a href="#" title="Language Deutsch"><img src="assets/front/img/language-de.jpg" alt="Language Deutsch"></a>
           </div>
 
-          <!-- Currency -->
           <div class="currency switcher">
             <a href="#" title="USD" class="active">USD</a>
             <a href="#" title="EUR">EUR</a>
             <a href="#" title="GBP">GBP</a>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
