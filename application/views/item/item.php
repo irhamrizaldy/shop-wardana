@@ -23,7 +23,7 @@
                         <?php $nomor = 1; ?>
                         <?php foreach ($item as $barang) : ?>
                             <tr>
-                                <td><?php echo $nomor ?></td>
+                                <td><?php echo $nomor ?>.</td>
                                 <td><?php echo $barang['nama_barang'] ?></td>
                                 <td>Rp. <?php echo $barang['harga_barang'] ?></td>
                                 <td><?php echo $barang['stok_barang'] ?></td>

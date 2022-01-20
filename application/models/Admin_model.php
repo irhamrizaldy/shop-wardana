@@ -31,6 +31,15 @@ class Admin_model extends CI_Model
         }
     }
 
+    public function getJumlahAdmin()
+    {
+        $this->db->select('tbl_admin.id, count(tbl_admin.id) as total');
+        $query = $this->db->get('tbl_admin');
+        if ($query->num_rows() > 0) {
+            return $query->result();
+        }
+    }
+
     // public function getJoinItem()
     // {
     //     $this->db->select('*');

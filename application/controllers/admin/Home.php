@@ -14,6 +14,7 @@ class Home extends CI_Controller
         if ($this->session->userdata('username') == FALSE) {
             redirect('admin/login/auth');
         } else {
+            $data['tbl_admin'] = $this->Admin_model->getJumlahAdmin();
             $data['tbl_barang'] = $this->Admin_model->getJumlahBarang();
             $data['tbl_pembeli'] = $this->Admin_model->getJumlahPembeli();
             $data['content'] = 'admin/dashboard';
