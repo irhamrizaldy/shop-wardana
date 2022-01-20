@@ -23,8 +23,12 @@
                             </button>
                         </form>
                         <hr>
+                        <?= $this->session->flashdata('message'); ?>
                         <div class="text-center">
                             <a class="small" href="<?= base_url('admin/login/auth'); ?>">Already have an account? Login!</a>
+                        </div>
+                        <div class="text-center">
+                            <a class="small" href="<?= base_url('admin/'); ?>">Go Back!</a>
                         </div>
                     </div>
                 </div>

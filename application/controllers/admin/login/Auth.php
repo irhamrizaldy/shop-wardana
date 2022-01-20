@@ -82,8 +82,8 @@ class Auth extends CI_Controller
 
             $this->db->insert('tbl_admin', $data);
             $this->session->set_flashdata('message', '<div class="alert alert-success" role="alert">
-            Congratulations! Your admin account has been created. Please Login</div>');
-            redirect('admin/login/auth');
+            Congratulations! Your admin account has been created.</div>');
+            redirect('admin/login/auth/registration');
         }
     }
 
