@@ -1,97 +1,108 @@
-<!-- ======= Footer ======= -->
+<!-- Footer -->
 <footer id="footer">
-    <div class="footer-top">
-        <div class="container">
-            <div class="row">
+    <div class="footer">
+        <div class="footer-wrap">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 footer-col">
+                        <div class="block newsletter">
+                            <h2 class="block-title">Newsletter</h2>
 
-                <div class="col-lg-3 col-md-6">
-                    <div class="footer-info">
-                        <h3>H. M. Thoha</h3>
-                        <p>
-                            Jl. Manyar I/17 RT4 RW4<br>
-                            Punggul, Gedangan, Sidoarjo<br>
-                            Jawa Timur<br><br>
-                            <strong>Phone:</strong> +62 817 322 353<br>
-                            <strong>Email:</strong> info@example.com<br>
-                        </p>
-                        <div class="social-links mt-3">
-                            <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                            <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                            <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                            <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                            <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                            <div class="block-content">
+                                <p class="description">Sign up for newsletter to receive special offers and exclusive news about FreshMart products</p>
+                                <form action="#" method="post">
+                                    <input type="text" placeholder="Enter Your Email">
+                                    <button type="submit" class="btn">Subscribe</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 footer-col">
+                        <div class="block text">
+                            <a href="home-4.html" class="logo-footer">
+                                <img src="assets/front/img/logo-3.png" alt="Logo">
+                            </a>
+
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incid idunt ut labore et dolore magna aliqua. Ut enim ad minim ipsum dolor sit amet, consec tetur adipiscing elit ipsum dolor sit amet, consectetur adipiscing elit</p>
+
+                            <div class="footer-image">
+                                <img src="assets/front/img/footer-image.png" alt="Footer Image">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 footer-col">
+                        <div class="block text">
+                            <h2 class="block-title">Contact Us</h2>
+
+                            <div class="block-content">
+                                <div class="contact">
+                                    <p><strong>Address</strong> : 123 Suspendis matti, VST District, NY Accums, North American</p>
+                                    <p><strong>Hotline</strong> : 012345678910 - 098765432100</p>
+                                    <p><strong>Email</strong> : <a href="mailto:support@domain.com">support@domain.com</a></p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-lg-2 col-md-6 footer-links ">
-                    <h4>Useful Links</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="<?= base_url() ?>">Beranda</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#about">Tentang Kami</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#services">Produk Jasa</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#faq">Syarat dan Ketentuan</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#contact">Kebijakan Kami</a></li>
-                    </ul>
-                </div>
-
-                <div class="col-lg-3 col-md-6 footer-links" align="center">
-                    <br>
-                    <br>
-                    <br>
-                    <img src="assets/front/img/logo.png" width="100"></img>
-                    <!-- <h4>Our Services</h4>
-                    <ul>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                        <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                    </ul> -->
-                </div>
-
-                <!-- <div class="col-lg-4 col-md-6 footer-newsletter">
-                    <h4>Berita Terupdate</h4>
-                    <p>Dapatkan berita terbaru dari Industri Topi - H. M. Thoha dengan berlangganan dibawah ini!</p>
-                    <form action="" method="post">
-                        <input type="email" name="email"><input type="submit" value="Langganan">
-                    </form>
-
-                </div> -->
-
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="copyright">
-            &copy; Copyright <strong><span>Maxim</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/ -->
-            Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+    <!-- Copyright -->
+    <div class="footer-copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 col-md-7 col-sm-7 col-xs-12">
+                    <div class="copyright"><a target="_blank" href="https://www.templateshub.net">Templates Hub</a></div>
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 align-right">
+                    <div class="payment">
+                        <img src="assets/front/img/payment.png" alt="Payment">
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</footer><!-- End Footer -->
+</footer>
 
-<!-- <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a> -->
 
-<!-- Vendor JS Files -->
-<script src="assets/front/vendor/jquery/jquery.min.js"></script>
-<script src="assets/front/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="assets/front/vendor/jquery.easing/jquery.easing.min.js"></script>
-<script src="assets/front/vendor/php-email-form/validate.js"></script>
-<script src="assets/front/vendor/owl.carousel/owl.carousel.min.js"></script>
-<script src="assets/front/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-<script src="assets/front/vendor/venobox/venobox.min.js"></script>
-<script src="assets/front/vendor/aos/aos.js"></script>
+<!-- Go Up button -->
+<div class="go-up">
+    <a href="#">
+        <i class="fa fa-long-arrow-up"></i>
+    </a>
+</div>
 
-<!-- Template Main JS File -->
+<!-- Page Loader -->
+<div id="page-preloader">
+    <div class="page-loading">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+</div>
+</div>
+
+<!-- Vendor JS -->
+<script src="assets/front/libs/jquery/jquery.js"></script>
+<script src="assets/front/libs/bootstrap/js/bootstrap.js"></script>
+<script src="assets/front/libs/jquery.countdown/jquery.countdown.js"></script>
+<script src="assets/front/libs/nivo-slider/js/jquery.nivo.slider.js"></script>
+<script src="assets/front/libs/owl.carousel/owl.carousel.min.js"></script>
+<script src="assets/front/libs/slider-range/js/tmpl.js"></script>
+<script src="assets/front/libs/slider-range/js/jquery.dependClass-0.1.js"></script>
+<script src="assets/front/libs/slider-range/js/draggable-0.1.js"></script>
+<script src="assets/front/libs/slider-range/js/jquery.slider.js"></script>
+<script src="assets/front/libs/elevatezoom/jquery.elevatezoom.js"></script>
+
+<!-- Template CSS -->
 <script src="assets/front/js/main.js"></script>
-
 </body>
+
 
 </html>

@@ -1,91 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
+  <!-- Basic Page Needs -->
   <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title><?= $title ?></title>
 
-  <title>Industri Topi - H. M. Thoha</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <meta name="keywords" content="Organic, Fresh Food, Farm Store">
+  <meta name="description" content="FreshMart - Organic, Fresh Food, Farm Store HTML Template">
+  <meta name="author" content="tivatheme">
 
-  <!-- Favicons -->
-  <link href="assets/front/img/favs.png" rel="icon">
-  <link href="assets/front/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/front/img/favicon.png" type="image/png">
+
+  <!-- Mobile Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
   <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display:300,400,700" rel="stylesheet">
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/front/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/front/vendor/icofont/icofont.min.css" rel="stylesheet">
-  <link href="assets/front/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/front/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="assets/front/vendor/venobox/venobox.css" rel="stylesheet">
-  <link href="assets/front/vendor/aos/aos.css" rel="stylesheet">
+  <!-- Vendor CSS -->
+  <link rel="stylesheet" href="assets/front/libs/bootstrap/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/front/libs/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/front/libs/font-material/css/material-design-iconic-font.min.css">
+  <link rel="stylesheet" href="assets/front/libs/nivo-slider/css/nivo-slider.css">
+  <link rel="stylesheet" href="assets/front/libs/nivo-slider/css/animate.css">
+  <link rel="stylesheet" href="assets/front/libs/nivo-slider/css/style.css">
+  <link rel="stylesheet" href="assets/front/libs/owl.carousel/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="assets/front/libs/slider-range/css/jslider.css">
 
-  <!-- Template Main CSS File -->
-  <link href="assets/front/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: Maxim - v2.3.0
-  * Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="assets/front/css/style.css">
+  <link rel="stylesheet" href="assets/front/css/reponsive.css">
 </head>
 
-<body>
+<body class="home home-5">
+  <div id="all">
+    <!-- Header -->
+    <header id="header">
+      <div class="header-top">
+        <span id="toggle-mobile-menu"><i class="zmdi zmdi-menu"></i></span>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top">
-    <div class="container d-flex">
+        <!-- Logo -->
+        <div class="logo">
+          <a href="">
+            <img class="img-responsive" src="assets/front/img/logo.png" alt="Logo">
+          </a>
+        </div>
 
-      <div class="logo mr-auto">
-        <img src="assets/front/img/logo-brand.png" width="50"></img>
-        <!-- <div class="col col-md-10">
-            <h1 class="text-light"><a href="<?= base_url() ?>">H. M. Thoha</a></h1>
-          </div> -->
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-      </div>
+        <!-- Social -->
+        <!-- <div class="social">
+          <ul>
+            <li>
+              <a href="">
+                <img src="assets/front/img/intro-social-1.png" alt="Social Item">
+              </a>
+            </li>
+            <li>
+              <a href="">
+                <img src="assets/front/img/intro-social-3.png" alt="Social Item">
+              </a>
+            </li>
+          </ul>
+        </div> -->
 
-      <nav class="nav-menu d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="<?= base_url() ?>">Beranda</a></li>
-          <li><a href="#about">Tentang Kami</a></li>
-          <li><a href="#services">Produk Jasa</a></li>
-          <!-- <li class="drop-down"><a href="">Drop Down</a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="drop-down"><a href="#">Drop Down 2</a>
+        <!-- Search -->
+        <div class="form-search">
+          <form action="#" method="get">
+            <input type="text" class="form-input" placeholder="Search">
+            <button type="submit" class="fa fa-search"></button>
+          </form>
+        </div>
+
+        <!-- Main Menu -->
+        <div id="main-menu">
+          <ul class="menu">
+            <li>
+              <a href="" title="Homepage">Home</a>
+            </li>
+
+            <li class="dropdown dropdown-submenu">
+              <a href="product-grid-left-sidebar.html" title="Product">Product</a>
+              <div class="dropdown-menu">
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li class="has-image">
+                    <img src="assets/front/img/product/product-category-1.png" alt="Product Category Image">
+                    <a href="product-grid-left-sidebar.html" title="Vegetables">Vegetables</a>
+                  </li>
+                  <li class="has-image">
+                    <img src="assets/front/img/product/product-category-2.png" alt="Product Category Image">
+                    <a href="product-grid-left-sidebar.html" title="Fruits">Fruits</a>
+                  </li>
+                  <li class="has-image">
+                    <img src="assets/front/img/product/product-category-3.png" alt="Product Category Image">
+                    <a href="product-grid-left-sidebar.html" title="Bread">Bread</a>
+                  </li>
+                  <li class="has-image">
+                    <img src="assets/front/img/product/product-category-4.png" alt="Product Category Image">
+                    <a href="product-grid-left-sidebar.html" title="Juices">Juices</a>
+                  </li>
+                  <li class="has-image">
+                    <img src="assets/front/img/product/product-category-5.png" alt="Product Category Image">
+                    <a href="product-grid-left-sidebar.html" title="Tea and coffee">Tea and coffee</a>
+                  </li>
                 </ul>
-              </li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-              <li><a href="#">Drop Down 5</a></li>
-            </ul>
-          </li> -->
-          <li><a href="#faq">Cara Order</a></li>
-          <li><a href="#contact">Hubungi Kami</a></li>
+              </div>
+            </li>
 
-        </ul>
-      </nav><!-- .nav-menu -->
-
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
-    <div class="container text-center text-md-left" data-aos="fade-up">
-      <h1>Selamat Datang</h1>
-      <h2>Industri Topi - H. M. Thoha Sidoarjo</h2>
-      <a href="#about" class="btn-get-started scrollto">Lebih Lanjut</a>
-    </div>
-  </section><!-- End Hero -->
+            <li class="dropdown dropdown-submenu">
+              <a href="#" title="Page">Page</a>
+              <div class="dropdown-menu">
+                <ul>
+                  <li class="dropdown-submenu">
+                    <a href="product-grid-left-sidebar.html" title="Product List">Product List</a>
+                    <div class="dropdown-menu level2">
+                      <ul>
+                        <li><a href="product-grid-left-sidebar.html" title="Product Grid - Left Sidebar">Product Grid - Left Sidebar</a></li>
+                        <li><a href="product-grid-right-sidebar.html" title="Product Grid - Right Sidebar">Product Grid - Right Sidebar</a></li>
+                        <li><a href="product-grid-full-width.html" title="Product Grid - Full Width">Product Grid - Full Width</a></li>
+                        <li><a href="product-list-left-sidebar.html" title="Product List - Left Sidebar">Product List - Left Sidebar</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="product-detail-left-sidebar.html" title="Product List">Product Detail</a>
+                    <div class="dropdown-menu level2">
+                      <ul>
+                        <li><a href="product-detail-left-sidebar.html" title="Product Detail - Left Sidebar">Product Detail - Left Sidebar</a></li>
+                        <li><a href="product-detail-full-width-1.html" title="Product List - Full Width 1">Product Detail - Full Width 1</a></li>
+                        <li><a href="product-detail-full-width-2.html" title="Product List - Full Width 2">Product Detail - Full Width 2</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="product-cart.html" title="Cart">Cart</a>
+                  </li>
+                  <li>
+                    <a href="product-checkout.html" title="Checkout">Checkout</a>
+                  </li>
+                  <li class="dropdown-submenu">
+                    <a href="#" title="User">User</a>
+                    <div class="dropdown-menu level2">
+                      <ul>
+                        <li><a href="user-login.html" title="Login">Login</a></li>
+                        <li><a href="user-register.html" title="Register">Register</a></li>
+                        <li><a href="#" title="My Account">My Account</a></li>
+                        <li><a href="#" title="My Wishlists">My Wishlists</a></li>
+                      </ul>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="page-404.html" title="Page 404">Page 404</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
