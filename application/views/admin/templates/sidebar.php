@@ -39,7 +39,7 @@
           </a>
         </li>
         <li class="nav-item">
-          <a href="<?= base_url() ?>admin/login/auth/registration" class="nav-link">
+          <a href="<?= base_url() ?>admin/admin" class="nav-link">
             <i class="nav-icon fas fa-edit"></i>
             <p>
               Tambah Admin

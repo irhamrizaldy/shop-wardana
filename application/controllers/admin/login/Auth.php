@@ -39,7 +39,7 @@ class Auth extends CI_Controller
             // jika adminnya aktif
             if ($admin['is_active'] == 1) {
                 // cek passwordnya
-                if (password_verify($password, $admin['password'])) {
+                if (password_verify($password, $admin['hash_password'])) {
                     $data = [
                         'username' => $admin['username']
                     ];
@@ -75,7 +75,8 @@ class Auth extends CI_Controller
         } else {
             $data = [
                 'username' => htmlspecialchars($this->input->post('username', true)),
-                'password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
+                'password' => $this->input->post('password'),
+                'hash_password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
                 'is_active' => 1,
             ];
 
