@@ -46,6 +46,14 @@
             </p>
           </a>
         </li>
+        <li class="nav-item">
+          <a href="<?= base_url() ?>admin/customer" class="nav-link">
+            <i class="nav-icon fas fa-envelope"></i>
+            <p>
+              Customer
+            </p>
+          </a>
+        </li>
       </ul>
     </nav>
     <!-- /.sidebar-menu -->

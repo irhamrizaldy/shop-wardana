@@ -13,6 +13,13 @@ class Admin_model extends CI_Model
         return $query = $this->db->get()->result_array();
     }
 
+    public function getAllCustomer()
+    {
+        $this->db->select('*');
+        $this->db->from('tbl_pembeli');
+        return $query = $this->db->get()->result_array();
+    }
+
     public function getJumlahBarang()
     {
         $this->db->select('tbl_barang.id, count(tbl_barang.id) as total');

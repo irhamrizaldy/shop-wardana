@@ -72,15 +72,17 @@
         foreach ($tbl_pembeli as $total) {
     ?>
             <div class="col-12 col-sm-6 col-md-3">
-                <div class="info-box mb-3">
-                    <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
+                <a style="color: black;" href="<?= base_url() ?>admin/customer">
+                    <div class="info-box mb-3">
+                        <span class="info-box-icon bg-warning elevation-1"><i class="fas fa-users"></i></span>
 
-                    <div class="info-box-content">
-                        <span class="info-box-text">Customer</span>
-                        <span class="info-box-number"><?php echo $total->total ?></span>
+                        <div class="info-box-content">
+                            <span class="info-box-text">Customer</span>
+                            <span class="info-box-number"><?php echo $total->total ?></span>
+                        </div>
+                        <!-- /.info-box-content -->
                     </div>
-                    <!-- /.info-box-content -->
-                </div>
+                </a>
                 <!-- /.info-box -->
             </div>
     <?php
