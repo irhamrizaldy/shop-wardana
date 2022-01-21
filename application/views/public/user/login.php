@@ -6,7 +6,7 @@
             <h2 class="title">Login</h2>
 
             <ul class="breadcrumb">
-                <li><a href="#" title="Home">Home</a></li>
+                <li><a href="<?= base_url() ?>" title="Home">Home</a></li>
                 <li><span>Login</span></li>
             </ul>
         </div>

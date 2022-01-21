@@ -147,7 +147,7 @@
                         <!-- Logo -->
                         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="logo">
-                                <a href="index.html">
+                                <a href="<?= base_url() ?>">
                                     <img class="img-responsive" src="assets/front/img/logo.png" alt="Logo">
                                 </a>
                             </div>

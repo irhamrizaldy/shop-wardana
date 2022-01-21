@@ -145,8 +145,8 @@
                     <a href="#" title="User">User</a>
                     <div class="dropdown-menu level2">
                       <ul>
-                        <li><a href="user-login.html" title="Login">Login</a></li>
-                        <li><a href="user-register.html" title="Register">Register</a></li>
+                        <li><a href="<?= base_url() ?>login" title="Login">Login</a></li>
+                        <li><a href="<?= base_url() ?>register" title="Register">Register</a></li>
                         <!-- <li><a href="#" title="My Account">My Account</a></li> -->
                         <!-- <li><a href="#" title="My Wishlists">My Wishlists</a></li> -->
                       </ul>

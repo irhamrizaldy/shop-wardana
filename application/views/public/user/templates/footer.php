@@ -8,7 +8,7 @@
                     <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                         <div class="block text">
                             <div class="block-content">
-                                <a href="index.html" class="logo-footer">
+                                <a href="<?= base_url() ?>" class="logo-footer">
                                     <img src="assets/front/img/logo-2.png" alt="Logo">
                                 </a>
 

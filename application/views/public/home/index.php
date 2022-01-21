@@ -83,10 +83,10 @@
           <a href="#" title="Log in to your customer account"><i class="fa fa-cog"></i>My Account</a>
         </div> -->
         <div class="item">
-          <a href="user-login.html" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
+          <a href="<?= base_url() ?>login" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
         </div>
         <div class="item">
-          <a href="user-register.html" title="Register Account"><i class="fa fa-user"></i>Register</a>
+          <a href="<?= base_url() ?>register" title="Register Account"><i class="fa fa-user"></i>Register</a>
         </div>
         <!-- <div class="item">
           <a href="#" title="My Wishlists"><i class="fa fa-heart"></i>My Wishlists</a>
