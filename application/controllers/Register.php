@@ -33,7 +33,7 @@ class Register extends CI_Controller
                 'username' => htmlspecialchars($this->input->post('username', true)),
                 'password' => $this->input->post('password'),
                 'hash_password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
-                'nama_pembeli' => $this->input->post('fname')
+                'nama_pembeli' => $this->input->post('fname') . " " . $this->input->post('lname')
             ];
 
             $this->db->insert('tbl_pembeli', $data);
