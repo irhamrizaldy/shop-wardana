@@ -17,7 +17,7 @@ class Item extends CI_Controller
     {
         $data['item'] = $this->Item_model->getAllItem();
         $data['title'] = 'Barang - Page';
-        $data['judul'] = 'Barang Dagang';
+        $data['judul'] = 'Data Barang Dagang';
         $data['content'] = 'item/item';
         $this->load->view('admin/templates/index', $data);
     }

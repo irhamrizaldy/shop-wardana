@@ -16,7 +16,7 @@ class Admin extends CI_Controller
     {
         $data['admin'] = $this->Admin_model->getAllItem();
         $data['title'] = 'Admin - Page';
-        $data['judul'] = 'Daftar Admin';
+        $data['judul'] = 'Data Admin';
         $data['content'] = 'admin/admin-list';
         $this->load->view('admin/templates/index', $data);
     }

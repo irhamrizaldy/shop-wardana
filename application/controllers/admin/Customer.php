@@ -16,7 +16,7 @@ class Customer extends CI_Controller
     {
         $data['cust'] = $this->Admin_model->getAllCustomer();
         $data['title'] = 'Customer - Page';
-        $data['judul'] = 'Daftar Customer';
+        $data['judul'] = 'Data Pelanggan';
         $data['content'] = 'admin/cust-list';
         $this->load->view('admin/templates/index', $data);
     }
