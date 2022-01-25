@@ -191,15 +191,15 @@
           <!-- All Products -->
           <div role="tabpanel" class="tab-pane fade in active" id="all-products">
             <div class="products owl-theme owl-carousel">
-              <div class="product-group">
-                <div class="product-item">
-                  <?php foreach ($item as $barang) : ?>
+              <?php foreach ($item as $barang) : ?>
+                <div class="product-group">
+                  <div class="product-item">
                     <div class="product-image">
                       <a href="product-detail-left-sidebar.html">
-                        <img src="assets/front/img/product/14.jpg" alt="Product Image">
+                        <img class="img-circle" height="150px" src="<?= base_url() . 'assets/front/upload/' . $barang['gambar_barang'] ?>" alt="Product Image">
                       </a>
                     </div>
-
+                    <br />
                     <div class="product-title">
                       <a href="product-detail-left-sidebar.html">
                         <!-- Organic Strawberry Fruits -->
@@ -233,9 +233,9 @@
                         <i class="fa fa-eye" aria-hidden="true"></i>
                       </a>
                     </div>
-                  <?php endforeach; ?>
+                  </div>
                 </div>
-              </div>
+              <?php endforeach; ?>
             </div>
           </div>
         </div>

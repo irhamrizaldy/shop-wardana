@@ -5,7 +5,7 @@
         <?php endif; ?>
         <div class="col-12 col-sm-6">
             <div class="col-12">
-                <img src="<?= base_url() . 'assets/front/images/' . $detail['gambar_barang'] ?>" width="500px" height="400px">
+                <img src="<?= base_url() . 'assets/front/upload/' . $detail['gambar_barang'] ?>" width="500px" height="400px">
             </div>
         </div>
         <div class="col-12 col-sm-6">

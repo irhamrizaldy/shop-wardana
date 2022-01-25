@@ -38,7 +38,7 @@ class Item extends CI_Controller
             $data['content'] = 'item/additem';
             $this->load->view('admin/templates/index', $data);
         } else {
-            $config['upload_path'] = './assets/front/images/';
+            $config['upload_path'] = './assets/front/upload/';
             $config['allowed_types'] = 'jpg|jpeg|png';
             $config['overwrite'] =  true;
             $config['max_size'] = 2000;

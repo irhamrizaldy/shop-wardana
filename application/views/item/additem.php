@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <form class="form-horizontal form-label-left" action="<?= base_url('') ?>admin/item/post" enctype="multipart/form-data" method="post">
+                <form class="form-horizontal form-label-left" method="POST" action="<?= base_url('') ?>admin/item/post" enctype="multipart/form-data">
                     <div class="form-group">
                         <label for="nama_barang">Nama Barang</label>
                         <input type="text" name="nama_barang" class="form-control">
