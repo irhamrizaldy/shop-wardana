@@ -11,8 +11,8 @@
                         </div>
                         <form class="user" method="post" action="<?= base_url('admin/login/auth/registration'); ?>">
                             <div class="form-group">
-                                <input type="text" class="form-control form-control-user" id="username" name="username" placeholder="Username" value="<?= set_value('username') ?>">
-                                <?= form_error('username', '<small class="text-danger pl-3">', '</small>'); ?>
+                                <input type="text" class="form-control form-control-user" id="uname" name="uname" placeholder="Username" value="<?= set_value('uname') ?>">
+                                <?= form_error('uname', '<small class="text-danger pl-3">', '</small>'); ?>
                             </div>
                             <div class="form-group">
                                 <input type="password" class="form-control form-control-user" id="password" name="password" placeholder="Password">
