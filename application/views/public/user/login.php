@@ -19,11 +19,11 @@
                 <div class="block-title">
                     <h2 class="title"><span>Login</span></h2>
                 </div>
-
-                <form action="#" method="post" enctype="multipart/form-data">
+                <?= $this->session->flashdata('message'); ?>
+                <form action="<?= base_url('login'); ?>" method="post">
                     <div class="form-group">
-                        <label>Email</label>
-                        <input type="email" value="" name="email">
+                        <label>Username</label>
+                        <input type="text" value="" name="username">
                     </div>
 
                     <div class="form-group">

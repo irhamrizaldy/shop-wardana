@@ -82,12 +82,21 @@
         <!-- <div class="item">
           <a href="#" title="Log in to your customer account"><i class="fa fa-cog"></i>My Account</a>
         </div> -->
-        <div class="item">
-          <a href="<?= base_url() ?>login" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
-        </div>
-        <div class="item">
-          <a href="<?= base_url() ?>register" title="Register Account"><i class="fa fa-user"></i>Register</a>
-        </div>
+        <?php if (isset($_SESSION['username'])) { ?>
+          <div class="item">
+            <a><i class="fa fa-user"></i>Selamat datang, <b><?= ($_SESSION['nama_pembeli']) ?></b></a>
+          </div>
+          <div class="item">
+            <a href="<?= base_url() ?>login/logout" title="Logout"><i class="fa fa-sign-out"></i>Logout</a>
+          </div>
+        <?php } else { ?>
+          <div class="item">
+            <a href="<?= base_url() ?>login" title="Log in to your customer account"><i class="fa fa-sign-in"></i>Login</a>
+          </div>
+          <div class="item">
+            <a href="<?= base_url() ?>register" title="Register Account"><i class="fa fa-user"></i>Register</a>
+          </div>
+        <?php } ?>
         <!-- <div class="item">
           <a href="#" title="My Wishlists"><i class="fa fa-heart"></i>My Wishlists</a>
         </div> -->

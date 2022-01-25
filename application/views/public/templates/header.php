@@ -81,7 +81,6 @@
             <li>
               <a href="" title="Homepage">Home</a>
             </li>
-
             <li class="dropdown dropdown-submenu">
               <a href="product-grid-left-sidebar.html" title="Product">Product</a>
               <div class="dropdown-menu">
@@ -143,7 +142,7 @@
                   </li>
                   <li class="dropdown-submenu">
                     <a href="#" title="User">User</a>
-                    <div class="dropdown-menu level2">
+                    <div class="dropdown-menu level3">
                       <ul>
                         <li><a href="<?= base_url() ?>login" title="Login">Login</a></li>
                         <li><a href="<?= base_url() ?>register" title="Register">Register</a></li>
