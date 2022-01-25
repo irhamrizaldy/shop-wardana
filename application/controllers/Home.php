@@ -10,7 +10,7 @@ class Home extends CI_Controller
     public function index($id = '')
     {
         $data['title'] = 'Wardana Shop';
-        // $data['item'] = $this->Item_model->getJoinItem();
+        $data['item'] = $this->Item_model->getAllItem();
         $this->load->view('public/templates/header', $data);
         $this->load->view('public/home/index');
         $this->load->view('public/templates/footer');
