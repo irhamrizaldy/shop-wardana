@@ -24,7 +24,7 @@
                         <?php foreach ($admin as $admins) : ?>
                             <tr>
                                 <td><?php echo $nomor ?>.</td>
-                                <td><?php echo $admins['username'] ?></td>
+                                <td><?php echo $admins['uname'] ?></td>
                                 <td><?php echo $admins['password'] ?></td>
                                 <td><?php echo ($admins['is_active'] == 1) ? 'Aktif' : 'Nonaktif' ?></td>
                                 <td>
