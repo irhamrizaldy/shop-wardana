@@ -14,11 +14,15 @@ class Admin extends CI_Controller
 
     public function index()
     {
-        $data['admin'] = $this->Admin_model->getAllItem();
-        $data['title'] = 'Admin - Page';
-        $data['judul'] = 'Data Admin';
-        $data['content'] = 'admin/admin-list';
-        $this->load->view('admin/templates/index', $data);
+        if ($this->session->userdata('uname') == FALSE) {
+            redirect('admin/login/auth');
+        } else {
+            $data['admin'] = $this->Admin_model->getAllItem();
+            $data['title'] = 'Admin - Page';
+            $data['judul'] = 'Data Admin';
+            $data['content'] = 'admin/admin-list';
+            $this->load->view('admin/templates/index', $data);
+        }
     }
 
     public function deleteAdmin($id)

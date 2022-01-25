@@ -18,8 +18,8 @@
       </a>
     </li>
     <li class="nav-item">
-      <?php if (isset($_SESSION['username'])) { ?>
-        <!-- <span class="hidden-xs">Hi, <?= ($_SESSION['username']) ?></span> -->
+      <?php if (isset($_SESSION['uname'])) { ?>
+        <!-- <span class="hidden-xs">Hi, <?= ($_SESSION['uname']) ?></span> -->
         <span>
           <a class="nav-link" href="<?= base_url() ?>admin/login/auth/logout">Logout</a>
         </span>

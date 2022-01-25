@@ -15,11 +15,15 @@ class Item extends CI_Controller
 
     public function index()
     {
-        $data['item'] = $this->Item_model->getAllItem();
-        $data['title'] = 'Barang - Page';
-        $data['judul'] = 'Data Barang Dagang';
-        $data['content'] = 'item/item';
-        $this->load->view('admin/templates/index', $data);
+        if ($this->session->userdata('uname') == FALSE) {
+            redirect('admin/login/auth');
+        } else {
+            $data['item'] = $this->Item_model->getAllItem();
+            $data['title'] = 'Barang - Page';
+            $data['judul'] = 'Data Barang Dagang';
+            $data['content'] = 'item/item';
+            $this->load->view('admin/templates/index', $data);
+        }
     }
 
     public function post()
