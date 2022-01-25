@@ -9,10 +9,9 @@ class Item extends CI_Controller
 
     public function index($id = '')
     {
-        $data['judul'] = 'Item';
-        $data['designer'] = $this->Item_model->getJoinItem();
-        $this->load->view('public/templates/header', $data);
-        $this->load->view('public/designer/index');
-        $this->load->view('public/templates/footer');
+        $data['title'] = 'Tambah Barang - Page';
+        $data['judul'] = 'Form Tambah Barang Baru';
+        $data['content'] = 'item/additem';
+        $this->load->view('admin/templates/index', $data);
     }
 }

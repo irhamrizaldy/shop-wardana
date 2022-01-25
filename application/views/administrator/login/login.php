@@ -9,8 +9,8 @@
             <?= $this->session->flashdata('message'); ?>
             <form method="post" action="<?= base_url('admin/login/auth'); ?>">
                 <div class="input-group mb-3">
-                    <input type="text" class="form-control" id="username" name="username" placeholder="Username" value="<?= set_value('username'); ?>">
-                    <?= form_error('username', '<small class="text-danger pl-3">', '</small>'); ?>
+                    <input type="text" class="form-control" id="uname" name="uname" placeholder="Username" value="<?= set_value('uname'); ?>">
+                    <?= form_error('uname', '<small class="text-danger pl-3">', '</small>'); ?>
                     <div class="input-group-append">
                         <div class="input-group-text">
                             <span class="fas fa-envelope"></span>

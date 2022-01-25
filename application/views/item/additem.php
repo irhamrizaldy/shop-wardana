@@ -11,7 +11,7 @@
                 </div>
             </div>
             <div class="card-body">
-                <form class="form-horizontal form-label-left" action="<?= base_url('') ?>admin/item/additem" enctype="multipart/form-data" method="post">
+                <form class="form-horizontal form-label-left" action="<?= base_url('') ?>admin/item/post" enctype="multipart/form-data" method="post">
                     <div class="form-group">
                         <label for="nama_barang">Nama Barang</label>
                         <input type="text" name="nama_barang" class="form-control">
@@ -28,7 +28,7 @@
                         <small class="form-text text-danger"><?= form_error('stok_barang'); ?></small>
                     </div>
                     <div class="form-group">
-                        <label for="">Gambar</label>
+                        <label for="gambar_barang">Gambar</label>
                         <div>
                             <input type="file" name="gambar_barang">
                             <small class="form-text text-danger"><?= form_error('gambar_barang'); ?></small>

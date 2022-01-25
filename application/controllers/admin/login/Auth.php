@@ -11,7 +11,7 @@ class Auth extends CI_Controller
 
     public function index()
     {
-        $this->form_validation->set_rules('username', 'Username', 'trim|required');
+        $this->form_validation->set_rules('uname', 'Username', 'trim|required');
         $this->form_validation->set_rules('password', 'Password', 'trim|required');
 
         if ($this->form_validation->run() == false) {
@@ -27,12 +27,10 @@ class Auth extends CI_Controller
 
     private function _login()
     {
-        $username = $this->input->post('username');
+        $username = $this->input->post('uname');
         $password = $this->input->post('password');
 
-
-
-        $admin = $this->db->get_where('tbl_admin', ['username' => $username])->row_array();
+        $admin = $this->db->get_where('tbl_admin', ['uname' => $username])->row_array();
 
         // jika adminnya ada
         if ($admin) {
@@ -41,7 +39,7 @@ class Auth extends CI_Controller
                 // cek passwordnya
                 if (password_verify($password, $admin['hash_password'])) {
                     $data = [
-                        'username' => $admin['username']
+                        'uname' => $admin['uname']
                     ];
                     $this->session->set_userdata($data);
                     redirect('admin');
@@ -64,7 +62,7 @@ class Auth extends CI_Controller
 
     public function registration()
     {
-        $this->form_validation->set_rules('username', 'Username', 'required|trim|is_unique[tbl_admin.username]', ['is_unique' => 'This username has already registered!']);
+        $this->form_validation->set_rules('uname', 'Username', 'required|trim|is_unique[tbl_admin.uname]', ['is_unique' => 'This username has already registered!']);
         $this->form_validation->set_rules('password', 'Password', 'required|trim|min_length[5]', ['min_length' => 'Password too short!']);
 
         if ($this->form_validation->run() == false) {
@@ -74,7 +72,7 @@ class Auth extends CI_Controller
             $this->load->view('administrator/login/templates/auth_footer');
         } else {
             $data = [
-                'username' => htmlspecialchars($this->input->post('username', true)),
+                'uname' => htmlspecialchars($this->input->post('uname', true)),
                 'password' => $this->input->post('password'),
                 'hash_password' => password_hash($this->input->post('password'), PASSWORD_DEFAULT),
                 'is_active' => 1,
@@ -90,7 +88,7 @@ class Auth extends CI_Controller
     public function logout()
     {
         $this->session->unset_userdata('id');
-        $this->session->unset_userdata('username');
+        $this->session->unset_userdata('uname');
         $this->session->unset_userdata('is_authenticated');
         $this->session->sess_destroy();
         $this->output->set_header("Cache-Control: no-store, no-cache, must-revalidate, no-transform, max-age=0, post-check=0, pre-check=0");

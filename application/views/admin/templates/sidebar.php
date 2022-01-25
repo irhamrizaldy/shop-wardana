@@ -14,7 +14,7 @@
         <img src="<?= base_url('assets/bend/') ?>dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
       </div>
       <div class="info">
-        <a class="d-block"><?= ($_SESSION['username']) ?></a>
+        <a class="d-block"><?= ($_SESSION['uname']) ?></a>
       </div>
     </div>
     <!-- Sidebar Menu -->

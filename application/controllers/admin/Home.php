@@ -11,7 +11,7 @@ class Home extends CI_Controller
 
     public function index()
     {
-        if ($this->session->userdata('username') == FALSE) {
+        if ($this->session->userdata('uname') == FALSE) {
             redirect('admin/login/auth');
         } else {
             $data['tbl_admin'] = $this->Admin_model->getJumlahAdmin();

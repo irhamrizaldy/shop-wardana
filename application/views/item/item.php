@@ -2,7 +2,7 @@
     <div class="col-12">
         <div class="card">
             <div class="card-header">
-                <a href="<?= base_url('') ?>admin/item/addItem" class="btn btn-primary">Tambah Barang</a>
+                <a href="<?= base_url('') ?>item" class="btn btn-primary">Tambah Barang</a>
                 <div class="flash-data" data-flashdata="<?= $this->session->flashdata('flash'); ?>"></div>
                 <?php if ($this->session->flashdata('flash')) : ?>
                 <?php endif; ?>
