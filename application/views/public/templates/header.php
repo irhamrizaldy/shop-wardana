@@ -113,46 +113,11 @@
               <a href="#" title="Page">Page</a>
               <div class="dropdown-menu">
                 <ul>
-                  <li class="dropdown-submenu">
-                    <a href="product-grid-left-sidebar.html" title="Product List">Product List</a>
-                    <div class="dropdown-menu level2">
-                      <ul>
-                        <li><a href="product-grid-left-sidebar.html" title="Product Grid - Left Sidebar">Product Grid - Left Sidebar</a></li>
-                        <li><a href="product-grid-right-sidebar.html" title="Product Grid - Right Sidebar">Product Grid - Right Sidebar</a></li>
-                        <li><a href="product-grid-full-width.html" title="Product Grid - Full Width">Product Grid - Full Width</a></li>
-                        <li><a href="product-list-left-sidebar.html" title="Product List - Left Sidebar">Product List - Left Sidebar</a></li>
-                      </ul>
-                    </div>
-                  </li>
-                  <li class="dropdown-submenu">
-                    <a href="product-detail-left-sidebar.html" title="Product List">Product Detail</a>
-                    <div class="dropdown-menu level2">
-                      <ul>
-                        <li><a href="product-detail-left-sidebar.html" title="Product Detail - Left Sidebar">Product Detail - Left Sidebar</a></li>
-                        <li><a href="product-detail-full-width-1.html" title="Product List - Full Width 1">Product Detail - Full Width 1</a></li>
-                        <li><a href="product-detail-full-width-2.html" title="Product List - Full Width 2">Product Detail - Full Width 2</a></li>
-                      </ul>
-                    </div>
+                  <li>
+                    <a href="<?= base_url() ?>cart" title="Cart">Cart</a>
                   </li>
                   <li>
-                    <a href="product-cart.html" title="Cart">Cart</a>
-                  </li>
-                  <li>
-                    <a href="product-checkout.html" title="Checkout">Checkout</a>
-                  </li>
-                  <li class="dropdown-submenu">
-                    <a href="#" title="User">User</a>
-                    <div class="dropdown-menu level3">
-                      <ul>
-                        <li><a href="<?= base_url() ?>login" title="Login">Login</a></li>
-                        <li><a href="<?= base_url() ?>register" title="Register">Register</a></li>
-                        <!-- <li><a href="#" title="My Account">My Account</a></li> -->
-                        <!-- <li><a href="#" title="My Wishlists">My Wishlists</a></li> -->
-                      </ul>
-                    </div>
-                  </li>
-                  <li>
-                    <a href="page-404.html" title="Page 404">Page 404</a>
+                    <a href="<?= base_url() ?>checkout" title="Checkout">Checkout</a>
                   </li>
                 </ul>
               </div>
