@@ -55,10 +55,10 @@
                         <div class="col-md-7 col-sm-7 col-xs-12">
                             <div class="topbar-left d-flex">
                                 <div class="email">
-                                    <i class="fa fa-envelope" aria-hidden="true"></i>Email: tivatheme@gmail.com
+                                    <i class="fa fa-envelope" aria-hidden="true"></i>: airhumbs@gmail.com
                                 </div>
                                 <div class="skype">
-                                    <i class="fa fa-skype" aria-hidden="true"></i>Skype: tivatheme
+                                    <i class="fa fa-instagram" aria-hidden="true"></i>: irhamrizaldy_
                                 </div>
                             </div>
                         </div>
@@ -67,7 +67,7 @@
                         <div class="col-md-5 col-sm-5 col-xs-12">
                             <div class="topbar-right d-flex justify-content-end">
                                 <!-- My Account -->
-                                <div class="dropdown account">
+                                <!-- <div class="dropdown account">
                                     <div class="dropdown-toggle" data-toggle="dropdown">
                                         My Account
                                     </div>
@@ -85,10 +85,10 @@
                                             <a href="#" title="My Wishlists"><i class="fa fa-heart"></i>My Wishlists</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <!-- Language -->
-                                <div class="dropdown language">
+                                <!-- <div class="dropdown language">
                                     <div class="dropdown-toggle" data-toggle="dropdown">
                                         <img src="assets/front/img/language-en.jpg" alt="Language English">
                                     </div>
@@ -100,10 +100,10 @@
                                             <a href="#" title="Language French"><img src="assets/front/img/language-fr.jpg" alt="Language French"> French</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <!-- Currency -->
-                                <div class="dropdown currency">
+                                <!-- <div class="dropdown currency">
                                     <div class="dropdown-toggle" data-toggle="dropdown">
                                         USD
                                     </div>
@@ -118,7 +118,7 @@
                                             <a href="#" title="GBP">GBP</a>
                                         </div>
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -156,7 +156,7 @@
                         </div>
 
                         <!-- Cart -->
-                        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+                        <!-- <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
                             <div class="block-cart dropdown">
                                 <div class="cart-title">
                                     <i class="fa fa-shopping-basket"></i>
@@ -227,7 +227,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -235,20 +235,11 @@
             <!-- Main Menu -->
             <div id="main-menu">
                 <ul class="menu">
-                    <li class="dropdown">
-                        <a href="index.html" title="Homepage">Home</a>
-                        <div class="dropdown-menu">
-                            <ul>
-                                <li><a href="index.html" title="Homepage 1">Homepage 1</a></li>
-                                <li><a href="home-2.html" title="Homepage 2">Homepage 2</a></li>
-                                <li><a href="home-3.html" title="Homepage 3">Homepage 3</a></li>
-                                <li><a href="home-4.html" title="Homepage 4">Homepage 4</a></li>
-                                <li><a href="home-5.html" title="Homepage 5">Homepage 5</a></li>
-                            </ul>
-                        </div>
-                    </li>
+                    <!-- <li class="dropdown">
+                        <a href="<?= base_url() ?>" title="Homepage">Home</a>
+                    </li> -->
 
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a href="product-grid-left-sidebar.html" title="Product">Product</a>
                         <div class="dropdown-menu">
                             <ul>
@@ -274,9 +265,9 @@
                                 </li>
                             </ul>
                         </div>
-                    </li>
+                    </li> -->
 
-                    <li class="dropdown">
+                    <!-- <li class="dropdown">
                         <a href="#" title="Page">Page</a>
                         <div class="dropdown-menu">
                             <ul>
@@ -343,7 +334,7 @@
 
                     <li>
                         <a href="page-contact.html">Contact</a>
-                    </li>
+                    </li> -->
                 </ul>
             </div>
         </header>

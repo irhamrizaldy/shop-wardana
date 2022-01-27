@@ -50,23 +50,6 @@
             <img class="img-responsive" src="assets/front/img/logo.png" alt="Logo">
           </a>
         </div>
-
-        <!-- Social -->
-        <!-- <div class="social">
-          <ul>
-            <li>
-              <a href="">
-                <img src="assets/front/img/intro-social-1.png" alt="Social Item">
-              </a>
-            </li>
-            <li>
-              <a href="">
-                <img src="assets/front/img/intro-social-3.png" alt="Social Item">
-              </a>
-            </li>
-          </ul>
-        </div> -->
-
         <!-- Search -->
         <div class="form-search">
           <form action="#" method="get">
@@ -79,10 +62,10 @@
         <div id="main-menu">
           <ul class="menu">
             <li>
-              <a href="" title="Homepage">Home</a>
+              <a href="" title="Homepage"><i class="fa fa-home"></i> Home</a>
             </li>
             <li class="dropdown dropdown-submenu">
-              <a href="product-grid-left-sidebar.html" title="Product">Product</a>
+              <a href="#" title="Keranjang"><i class="fa fa-tags"></i> Product</a>
               <div class="dropdown-menu">
                 <ul>
                   <li class="has-image">
@@ -108,19 +91,8 @@
                 </ul>
               </div>
             </li>
-
-            <li class="dropdown dropdown-submenu">
-              <a href="#" title="Page">Page</a>
-              <div class="dropdown-menu">
-                <ul>
-                  <li>
-                    <a href="<?= base_url() ?>cart" title="Cart">Cart</a>
-                  </li>
-                  <li>
-                    <a href="<?= base_url() ?>checkout" title="Checkout">Checkout</a>
-                  </li>
-                </ul>
-              </div>
+            <li>
+              <a href="<?= base_url() ?>cart" title="Keranjang"><i class="fa fa-cart-plus"></i> Keranjang</a>
             </li>
           </ul>
         </div>

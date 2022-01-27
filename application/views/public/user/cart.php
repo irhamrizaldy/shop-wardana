@@ -19,106 +19,61 @@
                     <thead>
                         <tr>
                             <th class="width-20">&nbsp;</th>
-                            <th class="width-80 text-center">Image</th>
-                            <th>Name</th>
-                            <th class="width-100 text-center">Unit price</th>
-                            <th class="width-100 text-center">Qty</th>
-                            <th class="width-100 text-center">Total</th>
+                            <th class="width-20 text-center">NO</th>
+                            <th>Nama Barang</th>
+                            <th class="width-100 text-center">Harga</th>
+                            <th class="width-100 text-center">Jumlah</th>
+                            <th class="width-100 text-center">Sub-Total</th>
                         </tr>
                     </thead>
-
                     <tbody>
-                        <tr>
-                            <td class="product-remove">
-                                <a title="Remove this item" class="remove" href="#">
-                                    <i class="fa fa-times"></i>
-                                </a>
-                            </td>
-                            <td>
-                                <a href="product-detail-left-sidebar.html">
-                                    <img width="80" alt="Product Image" class="img-responsive" src="img/product/19.jpg">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="product-detail-left-sidebar.html" class="product-name">Organic Strawberry Fruits</a>
-                            </td>
-                            <td class="text-center">
-                                $265
-                            </td>
-                            <td>
-                                <div class="product-quantity">
-                                    <div class="qty">
-                                        <div class="input-group">
-                                            <input type="text" name="qty" value="1" data-min="1">
-                                            <span class="adjust-qty">
-                                                <span class="adjust-btn plus">+</span>
-                                                <span class="adjust-btn minus">-</span>
-                                            </span>
+                        <?php $i = 1; ?>
+                        <?php foreach ($this->cart->contents() as $items) : ?>
+                            <tr>
+                                <td class="product-remove">
+                                    <a title="Remove this item" class="remove" href="<?= base_url(); ?>cart/delete/<?= $items['rowid']; ?>">
+                                        <i class="fa fa-trash-o"></i>
+                                    </a>
+                                </td>
+                                <td><?php echo $i++; ?></td>
+                                <td>
+                                    <a href="product-detail-left-sidebar.html" class="product-name"><?php echo $items['name']; ?></a>
+                                </td>
+                                <td class="text-center">
+                                    Rp. <?php echo $this->cart->format_number($items['price']); ?>
+                                </td>
+                                <td>
+                                    <div class="product-quantity">
+                                        <div class="qty">
+                                            <div class="input-group">
+                                                <input type="text" name="qty" value="<?= $items['qty'] ?>" data-min="1" disabled>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                $265
-                            </td>
-                        </tr>
-
-                        <tr>
-                            <td class="product-remove">
-                                <a title="Remove this item" class="remove" href="#">
-                                    <i class="fa fa-times"></i>
-                                </a>
-                            </td>
-                            <td>
-                                <a href="product-detail-left-sidebar.html">
-                                    <img width="80" alt="Product Image" class="img-responsive" src="img/product/31.jpg">
-                                </a>
-                            </td>
-                            <td>
-                                <a href="product-detail-left-sidebar.html" class="product-name">Organic Strawberry Fruits</a>
-                            </td>
-                            <td class="text-center">
-                                $150
-                            </td>
-                            <td>
-                                <div class="product-quantity">
-                                    <div class="qty">
-                                        <div class="input-group">
-                                            <input type="text" name="qty" value="2" data-min="1">
-                                            <span class="adjust-qty">
-                                                <span class="adjust-btn plus">+</span>
-                                                <span class="adjust-btn minus">-</span>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </td>
-                            <td class="text-center">
-                                $300
-                            </td>
-                        </tr>
+                                </td>
+                                <td class="text-center">
+                                    <?= $items['qty'] * $items['price'] ?>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
                     </tbody>
 
                     <tfoot>
                         <tr class="cart-total">
                             <td rowspan="3" colspan="3"></td>
-                            <td colspan="2" class="text-right">Total products</td>
-                            <td colspan="1" class="text-center">$565</td>
+                            <td colspan="2" class="text-right">Total Barang Belanja</td>
+                            <td colspan="1" class="total text-center"><?= $this->cart->total_items(); ?></td>
                         </tr>
                         <tr class="cart-total">
-                            <td colspan="2" class="text-right">Total shipping</td>
-                            <td colspan="1" class="text-center">$10</td>
-                        </tr>
-                        <tr class="cart-total">
-                            <td colspan="2" class="total text-right">Total</td>
-                            <td colspan="1" class="total text-center">$575</td>
+                            <td colspan="2" class="total text-right">Harga Total</td>
+                            <td colspan="1" class="text-center">Rp. <?= $this->cart->format_number($this->cart->total()); ?></td>
                         </tr>
                     </tfoot>
                 </table>
             </div>
 
             <div class="checkout-btn">
-                <a href="product-checkout.html" class="btn btn-primary pull-right" title="Proceed to checkout">
+                <a href="<?= base_url() ?>checkout" class="btn btn-primary pull-right" title="Proceed to checkout">
                     <span>Proceed to checkout</span>
                     <i class="fa fa-angle-right ml-xs"></i>
                 </a>

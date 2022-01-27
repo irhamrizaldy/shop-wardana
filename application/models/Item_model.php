@@ -40,5 +40,10 @@ class Item_model extends CI_Model
         $this->db->where($where);
         $this->db->update($data, $table);
     }
+
+    public function displayCart($id)
+    {
+        return $this->db->where('id', $id)->get('tbl_barang')->row();
+    }
 }
 /* End of file Item_model.php */

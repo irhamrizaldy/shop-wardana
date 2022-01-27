@@ -2,76 +2,54 @@
 <div id="content" class="site-content">
   <div class="block-header">
     <!-- Cart -->
-    <div class="block-cart dropdown">
-      <div class="cart-title">
-        <i class="fa fa-shopping-basket" aria-hidden="true"></i>
-        <span class="cart-count">2</span>
-      </div>
+    <?php if (isset($_SESSION['username'])) { ?>
+      <div class="block-cart dropdown">
+        <div class="cart-title">
+          <i class="fa fa-shopping-basket" aria-hidden="true"></i>
+          <!-- <span class="cart-count">2</span> -->
+        </div>
 
-      <div class="dropdown-content">
-        <div class="cart-content">
-          <table>
-            <tbody>
-              <tr>
-                <td class="product-image">
-                  <a href="product-detail-left-sidebar.html">
-                    <img src="assets/front/img/product/7.jpg" alt="Product">
-                  </a>
-                </td>
-                <td>
-                  <div class="product-name">
-                    <a href="product-detail-left-sidebar.html">Organic Strawberry Fruits</a>
-                  </div>
-                  <div>
-                    2 x <span class="product-price">$28.98</span>
-                  </div>
-                </td>
-                <td class="action">
-                  <a class="remove" href="#">
-                    <i class="fa fa-trash-o" aria-hidden="true"></i>
-                  </a>
-                </td>
-              </tr>
-
-              <tr>
-                <td class="product-image">
-                  <a href="product-detail-left-sidebar.html">
-                    <img src="assets/front/img/product/6.jpg" alt="Product">
-                  </a>
-                </td>
-                <td>
-                  <div class="product-name">
-                    <a href="product-detail-left-sidebar.html">Organic Strawberry</a>
-                  </div>
-                  <div>
-                    1 x <span class="product-price">$35.00</span>
-                  </div>
-                </td>
-                <td class="action">
-                  <a class="remove" href="#">
-                    <i class="fa fa-trash-o" aria-hidden="true"></i>
-                  </a>
-                </td>
-              </tr>
-
-              <tr class="total">
-                <td>Total:</td>
-                <td colspan="2">$92.96</td>
-              </tr>
-
-              <tr>
-                <td colspan="3">
-                  <div class="cart-button">
-                    <a class="btn btn-primary" href="product-cart.html" title="View Cart">View Cart</a>
-                    <a class="btn btn-primary" href="product-checkout.html" title="Checkout">Checkout</a>
-                  </div>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+        <div class="dropdown-content">
+          <div class="cart-content">
+            <table>
+              <tbody>
+                <?php foreach ($this->cart->contents() as $items) : ?>
+                  <tr>
+                    <td class="product-image">
+                      <a href="product-detail-left-sidebar.html">
+                        <img src="assets/front/img/product/7.jpg" alt="Product">
+                      </a>
+                    </td>
+                    <td>
+                      <div class="product-name">
+                        <a href="product-detail-left-sidebar.html"><?php echo $items['name']; ?></a>
+                      </div>
+                      <div>
+                        <?= $items['qty'] ?> x <span class="product-price"><?= $items['price']; ?></span>
+                      </div>
+                    </td>
+                    <td class="action">
+                      <a class="remove" href="<?= base_url(); ?>cart/delete/<?= $items['rowid']; ?>">
+                        <i class="fa fa-trash-o" aria-hidden="true"></i>
+                      </a>
+                    </td>
+                  </tr>
+                <?php endforeach; ?>
+                <tr>
+                  <td colspan="3">
+                    <div class="cart-button">
+                      <a class="btn btn-primary" href="<?= base_url() ?>cart" title="View Cart">View Cart</a>
+                      <a class="btn btn-primary" href="<?= base_url() ?>checkout" title="Checkout">Checkout</a>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
       </div>
-    </div>
+    <?php } else { ?>
+    <?php } ?>
 
     <!-- My Account -->
     <div class="my-account dropdown toggle-icon">
@@ -221,7 +199,7 @@
                     </div>
 
                     <div class="product-buttons">
-                      <a class="add-to-cart" href="#">
+                      <a class="add-to-cart" href="<?= base_url(); ?>cart/add/<?= $barang['id']; ?>">
                         <i class="fa fa-shopping-basket" aria-hidden="true"></i>
                       </a>
 
