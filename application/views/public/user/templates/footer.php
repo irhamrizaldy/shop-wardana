@@ -221,6 +221,7 @@
 
 <!-- Template CSS -->
 <script src="assets/front/js/main.js"></script>
+<!-- Google Maps API -->
 </body>
 
 

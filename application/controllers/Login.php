@@ -34,8 +34,11 @@ class Login extends CI_Controller
         if ($user) {
             if (password_verify($password, $user['hash_password'])) {
                 $data = [
+                    'id' => $user['id'],
                     'username' => $user['username'],
-                    'nama_pembeli' => $user['nama_pembeli']
+                    'nama_pembeli' => $user['nama_pembeli'],
+                    'fname' => $user['fname'],
+                    'lname' => $user['lname']
                 ];
                 $this->session->set_userdata($data);
                 redirect(base_url());
@@ -53,6 +56,7 @@ class Login extends CI_Controller
 
     public function logout()
     {
+        $this->cart->destroy();
         $this->session->unset_userdata('id');
         $this->session->unset_userdata('username');
         $this->session->unset_userdata('is_authenticated');
