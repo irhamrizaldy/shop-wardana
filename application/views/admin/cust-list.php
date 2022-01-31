@@ -14,6 +14,7 @@
                             <th>NO</th>
                             <th>Username</th>
                             <th>Nama Lengkap</th>
+                            <th>Total Transaksi</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -23,6 +24,7 @@
                                 <td><?php echo $nomor ?>.</td>
                                 <td><?php echo $custs['username'] ?></td>
                                 <td><?php echo $custs['fname'] ?> <?php echo $custs['lname'] ?></td>
+                                <td><?php echo $custs['total_order'] ?></td>
                             </tr>
                             <?php $nomor++; ?>
                         <?php endforeach; ?>

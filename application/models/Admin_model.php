@@ -15,9 +15,8 @@ class Admin_model extends CI_Model
 
     public function getAllCustomer()
     {
-        $this->db->select('*');
-        $this->db->from('tbl_pembeli');
-        return $query = $this->db->get()->result_array();
+        $query = $this->db->query("SELECT id, username, fname, lname, SUM(total_order) AS total_order FROM tbl_pembeli JOIN tbl_pembelian WHERE id_pembeli = id GROUP BY id");
+        return $query->result_array();
     }
 
     public function getJumlahBarang()
