@@ -32,7 +32,7 @@ class Checkout extends CI_Controller
                 'total_order' => $this->cart->total_items(),
                 'total_harga' => $this->cart->total(),
                 'tanggal_order' => date('Y-m-d'),
-                'ongkir' => $this->input->post('alamat')
+                'ongkir' => $this->cart->total_items() * 1500
             );
             $this->Order_model->create($order);
 

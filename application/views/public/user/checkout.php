@@ -38,7 +38,7 @@
                                     <div class="form-group">
                                         <div class="col-md-12">
                                             <label>Address </label>
-                                            <input type="text" name="alamat" value="" class="form-control">
+                                            <input type="text" name="alamat" class="form-control">
                                         </div>
                                     </div>
                                     <div class="pull-right">
@@ -55,10 +55,10 @@
                         <tbody>
                             <tr class="shipping">
                                 <th>
-                                    Shipping
+                                    Ongkir
                                 </th>
                                 <td>
-                                    Free Shipping<input type="hidden" value="free_shipping" class="shipping-method" name="shipping_method">
+                                    <strong><span class="amount">Rp. <?= $this->cart->format_number($this->cart->total_items() * 1500); ?></span></strong>
                                 </td>
                             </tr>
                             <tr class="cart-subtotal">
